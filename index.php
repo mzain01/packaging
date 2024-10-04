@@ -163,7 +163,7 @@ include('header.php');
                                 <article class="product__card">
                                     <div class="product__card--thumbnail">
                                         <a class="product__card--thumbnail__link display-block" href="product-details.php?id=<?php echo $product['id'] ?>">
-                                            <img class="product__card--thumbnail__img " src="adminPanel/img/<?php echo $product['product_img'] ?>" width="100%" height="100%" alt="product-img">
+                                            <img class="product__card--thumbnail__img " src="adminPanel/img/industries/<?php echo $product['product_img'] ?>" width="100%" height="100%" alt="product-img">
                                         </a>
 
                                     </div>
@@ -487,7 +487,7 @@ include('header.php');
                                                         <article class="product__card">
                                                             <div class="product__card--thumbnail">
                                                                 <a class="product__card--thumbnail__link display-block" href="product-details.php?id=<?php echo $product['id']; ?>">
-                                                                    <img class="product__card--thumbnail__img" src="adminPanel/img/<?php echo $product['product_img']; ?>" alt="product-img">
+                                                                    <img class="product__card--thumbnail__img" src="adminPanel/img/industries/<?php echo $product['product_img']; ?>" alt="product-img">
 
                                                                 </a>
                                                             </div>
@@ -528,7 +528,7 @@ include('header.php');
                                                                 <article class="product__card">
                                                                     <div class="product__card--thumbnail">
                                                                         <a class="product__card--thumbnail__link display-block" href="product-details.php?id=<?php echo $product['id']; ?>">
-                                                                            <img class="product__card--thumbnail__img" src="adminPanel/img/<?php echo $product['product_img']; ?>" alt="product-img">
+                                                                            <img class="product__card--thumbnail__img" src="adminPanel/img/industries/<?php echo $product['product_img']; ?>" alt="product-img">
 
                                                                         </a>
                                                                     </div>
@@ -630,6 +630,8 @@ include('header.php');
                                             <option selected disabled>Select Color</option>
                                             <option value="color1">Color 1</option>
                                             <option value="color2">Color 2</option>
+                                            <option value="color1">Color 3</option>
+                                            <option value="color2">Color 4</option>
                                         </select>
                                     </div>
                                 </div>

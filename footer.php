@@ -26,9 +26,9 @@
                     <div class="footer__logo">
                     <a class="footer__logo--link" href="index.php"><img src="assets/img/logo/logo.png" alt="logo-img"></a>
                 </div>
-                            <svg class="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
+                            <!-- <svg class="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
                                 <path d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                            </svg>
+                            </svg> -->
                         </h2>
                         <div class="footer__widget--inner">
                             <p class="footer__widget--desc">Corporate clients and leisure travelers has
@@ -101,7 +101,7 @@
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.php">About Us</a></li>
                             <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="wishlist.html">Wishlist</a></li> -->
                             <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="privacy-policy.html">Privacy Policy</a></li> -->
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="faq.php">Frequently</a></li>
+                            <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="faq.php">Frequently</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 <!-- <div class="footer__logo">
                     <a class="footer__logo--link" href="index.php"><img src="assets/img/logo/logo.png" alt="logo-img"></a>
                 </div> -->
-                <p class="copyright__content"><span class="text__secondary red-color">© 2024 </span> All Rights Reserved. <a href="/"><span class="text__secondary red-color">Need Pachaging </span></a></p>
+                <p class="copyright__content"><span class="text__secondary red-color">© 2024 </span> All Rights Reserved. <a href="/"><span class="text__secondary red-color">Need Packaging </span></a></p>
                 <div class="footer__payment">
                     <img src="assets/img/icon/payment-img.webp" alt="payment-img">
                 </div>

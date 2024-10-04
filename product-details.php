@@ -45,7 +45,7 @@ if (isset($_GET['id'])) {
                             <div class="swiper-wrapper">
                                 <div class="">
                                     <div class="product__media--preview__items">
-                                        <a class="product__media--preview__items--link "><img class="product__media--preview__items--img" src="adminPanel/img/<?php echo $product['product_img'] ?>" alt="product-media-img"></a>
+                                        <a class="product__media--preview__items--link "><img class="product__media--preview__items--img" src="adminPanel/img/industries/<?php echo $product['product_img'] ?>" alt="product-media-img"></a>
                                         <div class="product__media--view__icon">
                                             <span class="visually-hidden">product view</span>
                                             </a>
@@ -142,10 +142,10 @@ if (isset($_GET['id'])) {
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4 mb-3 cust-field">
+                                            <div class="col-md-6 mb-3 cust-field">
                                                 <input type="number" class="form-control" name="quantity1" placeholder="Quantity 1" required>
                                             </div>
-                                            <div class="col-md-4 mb-3 cust-field">
+                                            <!-- <div class="col-md-4 mb-3 cust-field">
                                                 <select class="form-select" required name="color">
                                                     <option selected disabled>Select Category</option>
 
@@ -163,8 +163,8 @@ if (isset($_GET['id'])) {
                                                     ?>
 
                                                 </select>
-                                            </div>
-                                            <div class="col-md-4 mb-3 cust-field">
+                                            </div> -->
+                                            <div class="col-md-6 mb-3 cust-field">
                                                 <select class="form-select" required name="color">
                                                     <option selected disabled>Select Color</option>
                                                     <option value="color1">Color 1</option>
@@ -192,9 +192,9 @@ if (isset($_GET['id'])) {
                                         <div class="text-center mb-3 ">
                                             <button type="submit" name="product_form" class="btn btn-dark w-100">Submit</button>
                                         </div>
-                                        <p class="text-center text-muted small">
+                                        <!-- <p class="text-center text-muted small">
                                             This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
-                                        </p>
+                                        </p> -->
                                     </form>
                                 </div>
 
@@ -400,7 +400,7 @@ if (isset($_GET['id'])) {
                                 <article class="product__card">
                                     <div class="product__card--thumbnail">
                                         <a class="product__card--thumbnail__link display-block" href="product-details.php?id=<?php echo $related['id'] ?>">
-                                            <img class="product__card--thumbnail__img" src="adminPanel/img/<?php echo $related['product_img']; ?>" alt="product-img">
+                                            <img class="product__card--thumbnail__img" src="adminPanel/img/industries/<?php echo $related['product_img']; ?>" alt="product-img">
 
                                         </a>
 
