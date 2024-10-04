@@ -6524,12 +6524,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer__bg {
-  /* background: #ffebeb; */
+  background:var(--bg-offwhite-color);
   position: relative;
   border-top: 1px solid black;
 
 }
-.footer__bg::before{
+/* .footer__bg::before{
 
   content: '';
   position: absolute;
@@ -6540,7 +6540,7 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: -1;
   opacity: 50%;
   background: url(../img/slider/bg.png);
-}
+} */
 
 .main__footer {
   padding: 5.5rem 0 3.4rem;

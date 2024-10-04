@@ -124,7 +124,7 @@ try {
                                                         <article class="product__card">
                                                             <div class="product__card--thumbnail">
                                                                 <a class="product__card--thumbnail__link display-block" href="product-details.php?id=<?php echo htmlspecialchars($product['id']); ?>">
-                                                                    <img class="product__card--thumbnail__img" src="adminPanel/img/<?php echo $product['product_img']?>" alt="product-img">
+                                                                    <img class="product__card--thumbnail__img" src="adminPanel/img/industries/<?php echo $product['product_img']?>" alt="product-img">
 
                                                                 </a>
 
