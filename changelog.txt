@@ -1,0 +1,15 @@
+Date:    04-10-2024
+Version: 1.0.3
+===================
+1. Fixed: Zoom issue has been fixed on the product page
+
+Date:    01-29-2023
+Version: 1.0.2
+===================
+1. Updated: Quick view (Bootstrap Modal)
+
+Date:    01-01-2023
+Version: 1.0.1
+===================
+1. Fixed: Minor CSS issues
+2. Compatibility: On the Firefox browser
