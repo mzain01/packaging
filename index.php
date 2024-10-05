@@ -66,19 +66,15 @@ include('header.php');
                     <div class="hero__slider--inner hero__slider--activation swiper">
                         <div class="hero__slider--wrapper swiper-wrapper">
                             <div class="swiper-slide ">
-                                <div class="hero__slider--items__style2 home2-slider1-bg">
+                            <img src="assets/img/slider/home2-slider1-bg.webp">
 
-                                </div>
+                                
                             </div>
                             <div class="swiper-slide ">
-                                <div class="hero__slider--items__style2 home2-slider2-bg">
-
-                                </div>
+                            <img src="assets/img/slider/home2-slider2-bg.webp">
                             </div>
                             <div class="swiper-slide ">
-                                <div class="hero__slider--items__style2 home2-slider3-bg">
-
-                                </div>
+                            <img src="assets/img/slider/home2-slider3-bg.webp">
                             </div>
                         </div>
                         <div class="swiper__nav--btn swiper-button-next">
@@ -476,7 +472,7 @@ include('header.php');
                                         <div class="row mb--n30">
                                             <?php
                                             // Fetch all products (for all industries)
-                                            $query = $pdo->prepare("SELECT * FROM products limit 12");
+                                            $query = $pdo->prepare("SELECT * FROM products limit 9");
                                             $query->execute();
                                             $allProducts = $query->fetchAll(PDO::FETCH_ASSOC);
 

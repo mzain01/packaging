@@ -136,16 +136,7 @@ include('adminPanel/query.php');
             </div>
         </div>
 
-        <div class="header__topbar">
-            <div class="container">
-                <div class="header__topbar--inner d-flex align-items-center justify-content-center">
-                <!-- <h2 class="custom-header">
-                        <a href="tel:+13217858489"><span class="small">Contact Us Now : </span> 13217858489</a>
-                    </h2> -->
-
-                </div>
-            </div>
-        </div>
+  
 
 
         <div class="main__header header__sticky">
@@ -174,7 +165,7 @@ include('adminPanel/query.php');
                                 </select> -->
                     </div>
                     <h2 class="custom-header">
-                        <a href="tel:+13217858489"><span class="small">Contact Us Now : </span> 13217858489</a>
+                       <p> <a href="tel:+13217858489">Contact Us Now : <span class="small"> 13217858489</span></a></p>
                     </h2>
                     <div class="header__search--box">
                         <label>

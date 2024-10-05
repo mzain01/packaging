@@ -11758,8 +11758,9 @@ details > summary::-webkit-details-marker {
 }
 
 button.tab__btn--link.costom-tabs {
-  font-size: 20px;
+  font-size: 11px;
   height: 30px;
+  box-shadow:  1px 1px 1px 1px #00000026;
 }
 
 .row.mb--n30 p {
@@ -11806,25 +11807,27 @@ button.tab__btn--link.costom-tabs {
 
 
 .custom-header a{
-  color: red;
-  animation: popup 1s infinite ease-in;
+  /* color: red; */
+
   /* transform: scale(1.2); */
+  font-size: 20px !important;
   transition: .5s all ease-in;
 }
-.custom-header a span{
-  color: black !important;
+.custom-header span{
+  /* color: black !important; */
   font-size: 20px !important;
+  animation: blink 1s infinite ease-in;
 }
 
-@keyframes popup{
+@keyframes blink{
   0%{
-    transform: scale(1);
+    color: #000;
   }
   50%{
-    transform: scale(1.2);
+    color: red;
   }
   100%{
-    transform: scale(1);
+    color: #000;
   }
 }
 
