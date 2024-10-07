@@ -273,7 +273,7 @@ if (isset($_POST['update_product'])) {
     // $material_id = $_POST['material_id'];
     // $style_id = $_POST['style_id'];
 
-    $query = $pdo->prepare("update products set product_name = :product_name, product_short_desc = :product_short_desc, product_long_desc = :product_long_desc, product_industry = :product_industry, where id = :id");
+    $query = $pdo->prepare("update products set product_name = :product_name, product_short_desc = :product_short_desc, product_long_desc = :product_long_desc, product_industry = :product_industry where id = :id");
 
     if (isset($_FILES['productImage'])) {
         $productImageName = $_FILES['productImage']['name'];
@@ -283,6 +283,7 @@ if (isset($_POST['update_product'])) {
         if ($extension == "jpg" || $extension == "png" || $extension == "jpeg" || $extension == "webp") {
             if (move_uploaded_file($productImageTmpName, $destination)) {
                 $query = $pdo->prepare("update products set product_name = :product_name, product_short_desc = :product_short_desc, product_long_desc = :product_long_desc, product_industry = :product_industry, product_img = :product_img where id = :id");
+                
                 $query->bindParam('product_img', $productImageName);
             }
         }

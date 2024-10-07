@@ -202,7 +202,7 @@ if (isset($_GET['id'])) {
 
                             <div class="col-md-4 col-sm-12">
                                 <div class="container form-img-container">
-                                    <img src="assets/img/form.png" width="260px" height="460px" alt="Payment and Guarantee Icons" style="width: 260px; height:430px;">
+                                    <img src="assets/img/form.jpg" width="260px" height="460px" alt="Payment and Guarantee Icons" style="width: 260px; height:430px;">
                                 </div>
                             </div>
 

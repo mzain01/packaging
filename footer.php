@@ -31,10 +31,7 @@
                             </svg> -->
                         </h2>
                         <div class="footer__widget--inner">
-                            <p class="footer__widget--desc">Corporate clients and leisure travelers has
-                                been relying on Groundlink for dependable
-                                safe, and professional chauffeured car end
-                                service in major cities across World.</p>
+                            <p class="footer__widget--desc">Need Packaging provides custom packaging and printing solutions with a commitment to quality, speed, and customer satisfaction. Proudly serving businesses across the USA.</p>
                             <ul class="social__share footer__social d-flex">
                                 <li class="social__share--list">
                                     <a class="social__share--icon__style2" target="_blank" href="https://www.facebook.com">

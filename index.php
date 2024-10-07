@@ -17,41 +17,41 @@ include('header.php');
                             </div> -->
                             <div class="search__filter--header__text">
 
-                                <h2 class="search__filter--title">Custom Packaging & Printing Your Product Deserves</h2>
-                                <p class="search__filter--desc">Order Custom Printed Boxes, Paper Bags, Pouches, Labels, Hang Tags, and More</p>
+                                <h2 class="search__filter--title">Custom Packaging & Printing Solutions Tailored for Your Business, Delivered Fast Across the USA</h2>
+                                <p class="search__filter--desc">High-quality custom packaging and printing solutions to enhance your brand's image and customer experience.</p>
                                 <ul>
                                     <li>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25">
                                             <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M10.75,13.5,9,15.25l5.625,5.625,12.5-12.5-1.75-1.75L14.625,17.312Zm15.125,2.375a9.957,9.957,0,1,1-7.25-9.625l1.937-1.938a11.627,11.627,0,0,0-4.687-.937,12.5,12.5,0,1,0,12.5,12.5Z" transform="translate(-3.375 -3.375)" fill="#0c3c56">
                                             </path>
                                         </svg>
-                                        No Minimum Quantity
+                                        Custom Designs
                                     </li><br>
 
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25">
                                             <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M10.75,13.5,9,15.25l5.625,5.625,12.5-12.5-1.75-1.75L14.625,17.312Zm15.125,2.375a9.957,9.957,0,1,1-7.25-9.625l1.937-1.938a11.627,11.627,0,0,0-4.687-.937,12.5,12.5,0,1,0,12.5,12.5Z" transform="translate(-3.375 -3.375)" fill="#0c3c56">
                                             </path>
                                         </svg>
-                                        Fast Turn Around</li><br>
+                                        Eco-Friendly Materials</li><br>
                                     <li>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25">
                                             <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M10.75,13.5,9,15.25l5.625,5.625,12.5-12.5-1.75-1.75L14.625,17.312Zm15.125,2.375a9.957,9.957,0,1,1-7.25-9.625l1.937-1.938a11.627,11.627,0,0,0-4.687-.937,12.5,12.5,0,1,0,12.5,12.5Z" transform="translate(-3.375 -3.375)" fill="#0c3c56">
                                             </path>
                                         </svg>
-                                        No Hidden Charges
+                                        Fast Turnaround
                                     </li><br>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25">
                                             <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M10.75,13.5,9,15.25l5.625,5.625,12.5-12.5-1.75-1.75L14.625,17.312Zm15.125,2.375a9.957,9.957,0,1,1-7.25-9.625l1.937-1.938a11.627,11.627,0,0,0-4.687-.937,12.5,12.5,0,1,0,12.5,12.5Z" transform="translate(-3.375 -3.375)" fill="#0c3c56">
                                             </path>
                                         </svg>
-                                        Free Shipping</li><br>
+                                        Nationwide Delivery</li><br>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25">
                                             <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M10.75,13.5,9,15.25l5.625,5.625,12.5-12.5-1.75-1.75L14.625,17.312Zm15.125,2.375a9.957,9.957,0,1,1-7.25-9.625l1.937-1.938a11.627,11.627,0,0,0-4.687-.937,12.5,12.5,0,1,0,12.5,12.5Z" transform="translate(-3.375 -3.375)" fill="#0c3c56">
                                             </path>
                                         </svg>
-                                        24/7 Customer Support</li><br>
+                                        Competitive Pricing</li><br>
                                 </ul>
-                                <a class="primary__btn slider__btn" href="product.php">
+                                <a class="primary__btn slider__btn" href="contact.php">
                                     Get Started
                                     <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58745 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178V3.6178Z" fill="currentColor" />
@@ -66,15 +66,15 @@ include('header.php');
                     <div class="hero__slider--inner hero__slider--activation swiper">
                         <div class="hero__slider--wrapper swiper-wrapper">
                             <div class="swiper-slide ">
-                            <img src="assets/img/slider/home2-slider1-bg.webp">
+                                <img src="assets/img/slider/home2-slider1-bg.webp">
 
-                                
+
                             </div>
                             <div class="swiper-slide ">
-                            <img src="assets/img/slider/home2-slider2-bg.webp">
+                                <img src="assets/img/slider/home2-slider2-bg.webp">
                             </div>
                             <div class="swiper-slide ">
-                            <img src="assets/img/slider/home2-slider3-bg.webp">
+                                <img src="assets/img/slider/home2-slider3-bg.webp">
                             </div>
                         </div>
                         <div class="swiper__nav--btn swiper-button-next">
@@ -563,9 +563,9 @@ include('header.php');
             <div class="discount__banner--thumbnail position-relative">
                 <img class="border-radius-5 discount__banner--img__height" src="assets/img/banner/discount-banner-thumb.jpg" alt="banner-img">
                 <div class="discount__banner--content">
-                    <h2 class="discount__banner--content__title ">Is Your Industry <br> Not Listed Above?</h2>
+                    <h2 class="discount__banner--content__title ">Special Offer: 10% Off <br>First Order!</h2>
                     <!-- <span class="discount__banner--content__subtitle">If you do not see your industry listed, you can explore all industries here. Alternatively, connect with our helpful representatives via live chat or by completing our quote form with your specific requirements. We are committed to finding a solution that meets your industry needs.</span> -->
-                    <p>If you do not see your industry listed, you can explore all industries here.<br> Alternatively, connect with our helpful representatives via live chat or by completing</p>
+                    <p>Order now and get 10% off your first custom packaging order! Fast, reliable service and premium-quality materials guaranteed.</p>
 
                     <a class="discount__banner--content__btn primary__btn" href="product.php">Buy now
                         <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -583,8 +583,8 @@ include('header.php');
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="text-center">
-                    <h2>Instant Quotes, Quick Service!</h2>
-                    <p>You can get a price for your custom packaging really fast. We make sure it's quick, accurate, and easy for you, just the way you need it.</p>
+                    <h2>Instant Quote Form!</h2>
+                    <p>Fill out the form below for a quick, no-obligation quote on your custom packaging needs.</p>
                 </div>
             </div>
         </div>
@@ -696,44 +696,44 @@ include('header.php');
                                     <div class="container">
                                         <div class="faq__section--inner">
                                             <div class="face__step one border-bottom" id="accordionExample">
-                                                <h2 class="face__step--title h3 mb-30">Shipping Information</h2>
+                                                <h2 class="face__step--title h3 mb-30">Shipping Information FAQ</h2>
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">What Shipping Methods Are Available?
+                                                                    <button class="faq__accordion--btn accordion__items--button">1. How long does shipping take?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Standard shipping typically takes 5-7 business days, depending on your location and order size.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">How Long Will it Take To Get My Package??
+                                                                    <button class="faq__accordion--btn accordion__items--button">2. Do you offer expedited shipping?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Yes, we offer expedited shipping options at an additional cost. Contact us for more details.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">What payment types can I use?
+                                                                    <button class="faq__accordion--btn accordion__items--button">3. Where do you ship?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">We ship nationwide across the USA, including to Alaska and Hawaii.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -742,38 +742,38 @@ include('header.php');
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Do you ship internationally??
+                                                                    <button class="faq__accordion--btn accordion__items--button">4. Is shipping free?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Free shipping is available for bulk orders over a specific amount. Check our terms for more details.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">How will my parcel be delivered?
+                                                                    <button class="faq__accordion--btn accordion__items--button">5. Can I track my order?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Yes, once your order is shipped, you’ll receive a tracking number via email.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">How do I know if something is organic?
+                                                                    <button class="faq__accordion--btn accordion__items--button">6. What happens if my order is delayed?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">In the rare case of delays, we will notify you immediately and provide updated shipping information.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -781,44 +781,44 @@ include('header.php');
                                                 </div>
                                             </div>
                                             <div class="face__step one border-bottom" id="accordionExample2">
-                                                <h2 class="face__step--title h3 mb-30">Payment Information</h2>
+                                                <h2 class="face__step--title h3 mb-30">Payment Information FAQ:</h2>
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">What payment types can I use?
+                                                                    <button class="faq__accordion--btn accordion__items--button">1. What payment methods do you accept?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">We accept all major credit cards, PayPal, and bank transfers.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Can I pay by Gift Card?
+                                                                    <button class="faq__accordion--btn accordion__items--button">2. Is my payment information secure?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Yes, we use secure encryption technology to protect your payment details.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">can't make a payment
+                                                                    <button class="faq__accordion--btn accordion__items--button">3. Can I get a refund if needed?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Refunds are available under certain conditions. Check our return policy for more details.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -827,38 +827,38 @@ include('header.php');
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Has my payment gone through?
+                                                                    <button class="faq__accordion--btn accordion__items--button">4. Do you accept international payments?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Currently, we only accept payments from the USA.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Tracking my order
+                                                                    <button class="faq__accordion--btn accordion__items--button">5. Can I pay in installments?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">We do not offer installment plans at this time.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Haven’t received my order
+                                                                    <button class="faq__accordion--btn accordion__items--button">6. Will I receive an invoice?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Yes, an invoice will be emailed to you after completing your purchase.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -866,44 +866,44 @@ include('header.php');
                                                 </div>
                                             </div>
                                             <div class="face__step one" id="accordionExample3">
-                                                <h2 class="face__step--title h3 mb-30">Orders and Returns</h2>
+                                                <h2 class="face__step--title h3 mb-30">Orders and Returns FAQ:</h2>
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">How can I return an item?
+                                                                    <button class="faq__accordion--btn accordion__items--button">1. How do I place an order?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Orders can be placed through our website’s secure checkout process.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class=" accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">What Shipping Methods Are Available?
+                                                                    <button class="faq__accordion--btn accordion__items--button">2. Can I cancel or change my order?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">You may cancel or change your order within 24 hours of purchase by contacting customer support.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">How can i make refund from your website?
+                                                                    <button class="faq__accordion--btn accordion__items--button">3. What is your return policy?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">We accept returns on defective items within 30 days of delivery.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -912,38 +912,38 @@ include('header.php');
                                                         <div class="accordion__container">
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">I am a new user. How should I start?
+                                                                    <button class="faq__accordion--btn accordion__items--button">4. How do I return a product?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Contact our customer service to initiate the return process. A return label will be provided if eligible.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">What payment methods are accepted?
+                                                                    <button class="faq__accordion--btn accordion__items--button">5. What if I received a damaged item?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">If your item arrives damaged, please contact us immediately with photos for a replacement or refund.</p>
                                                                 </div>
                                                             </div>
                                                             <div class="accordion__items">
                                                                 <h3 class="accordion__items--title">
-                                                                    <button class="faq__accordion--btn accordion__items--button">Do you ship internationally?
+                                                                    <button class="faq__accordion--btn accordion__items--button">6. How long do returns take?
                                                                         <svg class="accordion__items--button__icon" xmlns="http://www.w3.org/2000/svg" width="20.355" height="13.394" viewBox="0 0 512 512">
                                                                             <path d="M98 190.06l139.78 163.12a24 24 0 0036.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z" fill="currentColor" />
                                                                         </svg>
                                                                     </button>
                                                                 </h3>
                                                                 <div class="accordion__items--body">
-                                                                    <p class="accordion__items--body__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim felis.</p>
+                                                                    <p class="accordion__items--body__desc">Once we receive your return, processing may take 7-10 business days.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -960,24 +960,37 @@ include('header.php');
 
                             <div id="description" class="tab-pane fade" role="tabpanel">
                                 <h1>Custom Printed Boxes by Need Packaging</h1>
-                                <p>At Need Packaging, we specialize in providing high-quality custom printed boxes that cater to your specific needs. Whether you are looking for an effective way to market your brand or need durable packaging solutions, our custom printed boxes are designed to meet all your requirements.</p>
-                                <h2>Types of Custom Boxes We Provide</h2>
+                                <p>At Need Packaging, we specialize in creating innovative and high-quality custom packaging that stands out in the market. Whether you're a small business or a large enterprise, our tailored solutions are designed to meet your packaging needs with style and functionality. From design to production and sourcing, we are your trusted partner in bringing your products to life.
                                 <p>
+                                <h2>Custom Packaging Products</h2>
+                                <p>We offer a wide range of custom printing and packaging solutions for various industries:</p>
                                 <ul>
-                                    <li>Custom Folding Cartons: Folding cartons are among the most versatile types of custom printed boxes. They are made from paperboard, which is lightweight yet sturdy. These boxes are ideal for packaging a wide range of products, from food items to cosmetics. The ability to print custom designs on these cartons makes them perfect for brand promotion.</li><br>
-                                    <li>Custom Mailer Boxes: Mailer boxes are specifically designed for shipping and e-commerce. They are strong, durable, and can withstand rough handling during transit. At Need Packaging, we offer custom printed mailer boxes that not only protect your products but also enhance your brand's visibility. These boxes are easy to assemble and can be customized with your logo and other design elements.</li><br>
-                                    <li>Custom Shipping Boxes: Shipping boxes are larger and more robust than mailer boxes. They are used for transporting bulkier items and are designed to offer maximum protection. Our custom printed shipping boxes are made from high-quality materials and can be customized with your branding to make a lasting impression on your customers.</li><br>
-                                    <li>Custom Rigid Boxes: Rigid boxes are the premium option among custom printed boxes. They are made from thick paperboard and offer superior protection and a luxurious feel. These boxes are perfect for high-end products like electronics, jewelry, and gifts. With our custom printing services, you can create rigid boxes that reflect the quality and exclusivity of your brand.</li>
+                                    <li>●<b> Custom Apparel Boxes:</b> Showcase your clothing with style.</li>
+                                    <li>●<b> Custom Cannabis & CBD Boxes:</b> Safe and compliant packaging for cannabis products.</li>
+                                    <li>●<b> Custom Cosmetic Boxes:</b> Elegant packaging for beauty and skincare items.</li>
+                                    <li>●<b> Custom E-Commerce Boxes: </b> Sturdy, custom-branded boxes for online retail.</li>
+                                    <li>●<b> Custom Eco-Friendly Boxes: </b> Sustainable packaging that aligns with your environmental goals.</li>
+                                    <li>●<b> Custom Food Boxes: </b>Secure, food-safe packaging for your culinary creations.</li>
+                                    <li>●<b> Custom Gift Boxes: </b>Make every unboxing a special occasion with our customizable gift boxes.</li>
+
+                                    <li>●<b> Custom Jewelry Boxes:</b> Luxurious and protective packaging for precious items.</li>
+                                    <li>●<b> Custom Mailer & Shipping Boxes: </b>Durable boxes for shipping with branding options.</li>
+                                    <li>●<b> Custom Electronics Boxes: </b> Secure and stylish packaging for electronic devices.</li>
+                                    <li>●<b> Custom Pharmaceuticals Boxes: </b> Reliable and compliant packaging for medical and pharmaceutical products.</li>
+                                    <li>●<b> Custom Automotive Boxes: </b> Tough packaging solutions for automotive parts and accessories.</li>
+
                                 </ul>
                                 </p> <br>
 
-                                <h2>Types of Custom Boxes We Provide</h2>
+                                <h2>Stationery Design</h2>
+                                <p>We also offer a variety of stationery design and printing solutions that complement your business and branding needs:</p>
                                 <p>
                                 <ul>
-                                    <li>Custom Folding Cartons: Folding cartons are among the most versatile types of custom printed boxes. They are made from paperboard, which is lightweight yet sturdy. These boxes are ideal for packaging a wide range of products, from food items to cosmetics. The ability to print custom designs on these cartons makes them perfect for brand promotion.</li><br>
-                                    <li>Custom Mailer Boxes: Mailer boxes are specifically designed for shipping and e-commerce. They are strong, durable, and can withstand rough handling during transit. At Plus Printers, we offer custom printed mailer boxes that not only protect your products but also enhance your brand's visibility. These boxes are easy to assemble and can be customized with your logo and other design elements.</li><br>
-                                    <li>Custom Shipping Boxes: Shipping boxes are larger and more robust than mailer boxes. They are used for transporting bulkier items and are designed to offer maximum protection. Our custom printed shipping boxes are made from high-quality materials and can be customized with your branding to make a lasting impression on your customers.</li><br>
-                                    <li>Custom Rigid Boxes: Rigid boxes are the premium option among custom printed boxes. They are made from thick paperboard and offer superior protection and a luxurious feel. These boxes are perfect for high-end products like electronics, jewelry, and gifts. With our custom printing services, you can create rigid boxes that reflect the quality and exclusivity of your brand.</li>
+                                    <li>●<b> 	Banners:</b> Capture attention at events with eye-catching banners.</li>
+                                    <li>●<b> Brochures:  </b>Informative, professional brochures for your business.</li>
+                                    <li>●<b> 	Catalogs & Magazines:  </b>  High-quality catalogs and magazines for your products and services.</li>
+                                    <li>●<b> Invitation Cards: </b>Personalize your invites with our custom designs.</li>
+                                    <li>●<b> Custom Automotive Boxes: </b> Tough packaging solutions for automotive parts and accessories.</li>
                                 </ul>
                                 </p>
                             </div>
@@ -989,367 +1002,6 @@ include('header.php');
     </section>
     <!-- Tabs End -->
 
-    <!-- Start blog section -->
-    <!-- <section class="blog__section section--padding">
-        <div class="container">
-            <div class="section__heading section__heading--flex border-bottom d-flex justify-content-between align-items-end mb-30">
-                <h2 class="section__heading--maintitle">Blog & article</h2>
-                <a class="view__all--link" href="blog.html">View all Blog</a>
-            </div>
-            <div class="blog__section--inner blog__swiper--activation swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="blog__card">
-                            <div class="blog__card--thumbnail">
-                                <a class="blog__card--thumbnail__link" href="blog-details.html"><img class="blog__card--thumbnail__img" src="assets/img/blog/blog1.webp" alt="blog-img"></a>
-                                <span class="blog__card--meta__date">20 <br> Oct</span>
-                            </div>
-                            <div class="blog__card--content">
-                                <span class="blog__card--meta">By: Rasalina</span>
-                                <h3 class="blog__card--title"><a href="blog-details.html">Beauty Skin Care Product In Stock</a></h3>
-                                <p class="blog__card--desc">Namkand sodales vel online best prices when
-                                    an unknown printer took a galley of </p>
-                                <div class="blog__card--footer d-flex justify-content-between align-items-center">
-                                    <a class="blog__card--btn__link" href="blog-details.html">Read more
-                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58746 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178Z" fill="currentColor"></path>
-                                        </svg>
-                                    </a>
-                                    <ul class="social__share blog__card--social d-flex">
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.facebook.com">
-                                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.62891 8.625L8.01172 6.10938H5.57812V4.46875C5.57812 3.75781 5.90625 3.10156 7 3.10156H8.12109V0.941406C8.12109 0.941406 7.10938 0.75 6.15234 0.75C4.15625 0.75 2.84375 1.98047 2.84375 4.16797V6.10938H0.601562V8.625H2.84375V14.75H5.57812V8.625H7.62891Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Facebook</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://twitter.com">
-                                                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12.5508 2.90625C13.0977 2.49609 13.5898 2.00391 13.9727 1.42969C13.4805 1.64844 12.9062 1.8125 12.332 1.86719C12.9336 1.51172 13.3711 0.964844 13.5898 0.28125C13.043 0.609375 12.4141 0.855469 11.7852 0.992188C11.2383 0.417969 10.5 0.0898438 9.67969 0.0898438C8.09375 0.0898438 6.80859 1.375 6.80859 2.96094C6.80859 3.17969 6.83594 3.39844 6.89062 3.61719C4.51172 3.48047 2.37891 2.33203 0.957031 0.609375C0.710938 1.01953 0.574219 1.51172 0.574219 2.05859C0.574219 3.04297 1.06641 3.91797 1.85938 4.4375C1.39453 4.41016 0.929688 4.30078 0.546875 4.08203V4.10938C0.546875 5.50391 1.53125 6.65234 2.84375 6.92578C2.625 6.98047 2.35156 7.03516 2.10547 7.03516C1.91406 7.03516 1.75 7.00781 1.55859 6.98047C1.91406 8.12891 2.98047 8.94922 4.23828 8.97656C3.25391 9.74219 2.02344 10.207 0.683594 10.207C0.4375 10.207 0.21875 10.1797 0 10.1523C1.25781 10.9727 2.76172 11.4375 4.40234 11.4375C9.67969 11.4375 12.5508 7.08984 12.5508 3.28906C12.5508 3.15234 12.5508 3.04297 12.5508 2.90625Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Twitter</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.instagram.com">
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.125 3.60547C5.375 3.60547 3.98047 5.02734 3.98047 6.75C3.98047 8.5 5.375 9.89453 7.125 9.89453C8.84766 9.89453 10.2695 8.5 10.2695 6.75C10.2695 5.02734 8.84766 3.60547 7.125 3.60547ZM7.125 8.80078C6.00391 8.80078 5.07422 7.89844 5.07422 6.75C5.07422 5.62891 5.97656 4.72656 7.125 4.72656C8.24609 4.72656 9.14844 5.62891 9.14844 6.75C9.14844 7.89844 8.24609 8.80078 7.125 8.80078ZM11.1172 3.49609C11.1172 3.08594 10.7891 2.75781 10.3789 2.75781C9.96875 2.75781 9.64062 3.08594 9.64062 3.49609C9.64062 3.90625 9.96875 4.23438 10.3789 4.23438C10.7891 4.23438 11.1172 3.90625 11.1172 3.49609ZM13.1953 4.23438C13.1406 3.25 12.9219 2.375 12.2109 1.66406C11.5 0.953125 10.625 0.734375 9.64062 0.679688C8.62891 0.625 5.59375 0.625 4.58203 0.679688C3.59766 0.734375 2.75 0.953125 2.01172 1.66406C1.30078 2.375 1.08203 3.25 1.02734 4.23438C0.972656 5.24609 0.972656 8.28125 1.02734 9.29297C1.08203 10.2773 1.30078 11.125 2.01172 11.8633C2.75 12.5742 3.59766 12.793 4.58203 12.8477C5.59375 12.9023 8.62891 12.9023 9.64062 12.8477C10.625 12.793 11.5 12.5742 12.2109 11.8633C12.9219 11.125 13.1406 10.2773 13.1953 9.29297C13.25 8.28125 13.25 5.24609 13.1953 4.23438ZM11.8828 10.3594C11.6914 10.9062 11.2539 11.3164 10.7344 11.5352C9.91406 11.8633 8 11.7812 7.125 11.7812C6.22266 11.7812 4.30859 11.8633 3.51562 11.5352C2.96875 11.3164 2.55859 10.9062 2.33984 10.3594C2.01172 9.56641 2.09375 7.65234 2.09375 6.75C2.09375 5.875 2.01172 3.96094 2.33984 3.14062C2.55859 2.62109 2.96875 2.21094 3.51562 1.99219C4.30859 1.66406 6.22266 1.74609 7.125 1.74609C8 1.74609 9.91406 1.66406 10.7344 1.99219C11.2539 2.18359 11.6641 2.62109 11.8828 3.14062C12.2109 3.96094 12.1289 5.875 12.1289 6.75C12.1289 7.65234 12.2109 9.56641 11.8828 10.3594Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Instagram</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.youtube.com">
-                                                <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.0117 2.16797C14.8477 1.51172 14.3281 0.992188 13.6992 0.828125C12.5234 0.5 7.875 0.5 7.875 0.5C7.875 0.5 3.19922 0.5 2.02344 0.828125C1.39453 0.992188 0.875 1.51172 0.710938 2.16797C0.382812 3.31641 0.382812 5.77734 0.382812 5.77734C0.382812 5.77734 0.382812 8.21094 0.710938 9.38672C0.875 10.043 1.39453 10.5352 2.02344 10.6992C3.19922 11 7.875 11 7.875 11C7.875 11 12.5234 11 13.6992 10.6992C14.3281 10.5352 14.8477 10.043 15.0117 9.38672C15.3398 8.21094 15.3398 5.77734 15.3398 5.77734C15.3398 5.77734 15.3398 3.31641 15.0117 2.16797ZM6.34375 7.99219V3.5625L10.2266 5.77734L6.34375 7.99219Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Youtube</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog__card">
-                            <div class="blog__card--thumbnail">
-                                <a class="blog__card--thumbnail__link" href="blog-details.html"><img class="blog__card--thumbnail__img" src="assets/img/blog/blog2.webp" alt="blog-img"></a>
-                                <span class="blog__card--meta__date">24 <br> Oct</span>
-                            </div>
-                            <div class="blog__card--content">
-                                <span class="blog__card--meta">By: Rasalina</span>
-                                <h3 class="blog__card--title"><a href="blog-details.html">Lorem ipsum dolor sit thre elit.</a></h3>
-                                <p class="blog__card--desc">Namkand sodales vel online best prices when
-                                    an unknown printer took a galley of </p>
-                                <div class="blog__card--footer d-flex justify-content-between align-items-center">
-                                    <a class="blog__card--btn__link" href="blog-details.html">Read more
-                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58746 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178Z" fill="currentColor"></path>
-                                        </svg>
-                                    </a>
-                                    <ul class="social__share blog__card--social d-flex">
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.facebook.com">
-                                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.62891 8.625L8.01172 6.10938H5.57812V4.46875C5.57812 3.75781 5.90625 3.10156 7 3.10156H8.12109V0.941406C8.12109 0.941406 7.10938 0.75 6.15234 0.75C4.15625 0.75 2.84375 1.98047 2.84375 4.16797V6.10938H0.601562V8.625H2.84375V14.75H5.57812V8.625H7.62891Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Facebook</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://twitter.com">
-                                                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12.5508 2.90625C13.0977 2.49609 13.5898 2.00391 13.9727 1.42969C13.4805 1.64844 12.9062 1.8125 12.332 1.86719C12.9336 1.51172 13.3711 0.964844 13.5898 0.28125C13.043 0.609375 12.4141 0.855469 11.7852 0.992188C11.2383 0.417969 10.5 0.0898438 9.67969 0.0898438C8.09375 0.0898438 6.80859 1.375 6.80859 2.96094C6.80859 3.17969 6.83594 3.39844 6.89062 3.61719C4.51172 3.48047 2.37891 2.33203 0.957031 0.609375C0.710938 1.01953 0.574219 1.51172 0.574219 2.05859C0.574219 3.04297 1.06641 3.91797 1.85938 4.4375C1.39453 4.41016 0.929688 4.30078 0.546875 4.08203V4.10938C0.546875 5.50391 1.53125 6.65234 2.84375 6.92578C2.625 6.98047 2.35156 7.03516 2.10547 7.03516C1.91406 7.03516 1.75 7.00781 1.55859 6.98047C1.91406 8.12891 2.98047 8.94922 4.23828 8.97656C3.25391 9.74219 2.02344 10.207 0.683594 10.207C0.4375 10.207 0.21875 10.1797 0 10.1523C1.25781 10.9727 2.76172 11.4375 4.40234 11.4375C9.67969 11.4375 12.5508 7.08984 12.5508 3.28906C12.5508 3.15234 12.5508 3.04297 12.5508 2.90625Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Twitter</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.instagram.com">
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.125 3.60547C5.375 3.60547 3.98047 5.02734 3.98047 6.75C3.98047 8.5 5.375 9.89453 7.125 9.89453C8.84766 9.89453 10.2695 8.5 10.2695 6.75C10.2695 5.02734 8.84766 3.60547 7.125 3.60547ZM7.125 8.80078C6.00391 8.80078 5.07422 7.89844 5.07422 6.75C5.07422 5.62891 5.97656 4.72656 7.125 4.72656C8.24609 4.72656 9.14844 5.62891 9.14844 6.75C9.14844 7.89844 8.24609 8.80078 7.125 8.80078ZM11.1172 3.49609C11.1172 3.08594 10.7891 2.75781 10.3789 2.75781C9.96875 2.75781 9.64062 3.08594 9.64062 3.49609C9.64062 3.90625 9.96875 4.23438 10.3789 4.23438C10.7891 4.23438 11.1172 3.90625 11.1172 3.49609ZM13.1953 4.23438C13.1406 3.25 12.9219 2.375 12.2109 1.66406C11.5 0.953125 10.625 0.734375 9.64062 0.679688C8.62891 0.625 5.59375 0.625 4.58203 0.679688C3.59766 0.734375 2.75 0.953125 2.01172 1.66406C1.30078 2.375 1.08203 3.25 1.02734 4.23438C0.972656 5.24609 0.972656 8.28125 1.02734 9.29297C1.08203 10.2773 1.30078 11.125 2.01172 11.8633C2.75 12.5742 3.59766 12.793 4.58203 12.8477C5.59375 12.9023 8.62891 12.9023 9.64062 12.8477C10.625 12.793 11.5 12.5742 12.2109 11.8633C12.9219 11.125 13.1406 10.2773 13.1953 9.29297C13.25 8.28125 13.25 5.24609 13.1953 4.23438ZM11.8828 10.3594C11.6914 10.9062 11.2539 11.3164 10.7344 11.5352C9.91406 11.8633 8 11.7812 7.125 11.7812C6.22266 11.7812 4.30859 11.8633 3.51562 11.5352C2.96875 11.3164 2.55859 10.9062 2.33984 10.3594C2.01172 9.56641 2.09375 7.65234 2.09375 6.75C2.09375 5.875 2.01172 3.96094 2.33984 3.14062C2.55859 2.62109 2.96875 2.21094 3.51562 1.99219C4.30859 1.66406 6.22266 1.74609 7.125 1.74609C8 1.74609 9.91406 1.66406 10.7344 1.99219C11.2539 2.18359 11.6641 2.62109 11.8828 3.14062C12.2109 3.96094 12.1289 5.875 12.1289 6.75C12.1289 7.65234 12.2109 9.56641 11.8828 10.3594Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Instagram</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.youtube.com">
-                                                <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.0117 2.16797C14.8477 1.51172 14.3281 0.992188 13.6992 0.828125C12.5234 0.5 7.875 0.5 7.875 0.5C7.875 0.5 3.19922 0.5 2.02344 0.828125C1.39453 0.992188 0.875 1.51172 0.710938 2.16797C0.382812 3.31641 0.382812 5.77734 0.382812 5.77734C0.382812 5.77734 0.382812 8.21094 0.710938 9.38672C0.875 10.043 1.39453 10.5352 2.02344 10.6992C3.19922 11 7.875 11 7.875 11C7.875 11 12.5234 11 13.6992 10.6992C14.3281 10.5352 14.8477 10.043 15.0117 9.38672C15.3398 8.21094 15.3398 5.77734 15.3398 5.77734C15.3398 5.77734 15.3398 3.31641 15.0117 2.16797ZM6.34375 7.99219V3.5625L10.2266 5.77734L6.34375 7.99219Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Youtube</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog__card">
-                            <div class="blog__card--thumbnail">
-                                <a class="blog__card--thumbnail__link" href="blog-details.html"><img class="blog__card--thumbnail__img" src="assets/img/blog/blog3.webp" alt="blog-img"></a>
-                                <span class="blog__card--meta__date">22 <br> Oct</span>
-                            </div>
-                            <div class="blog__card--content">
-                                <span class="blog__card--meta">By: Rasalina</span>
-                                <h3 class="blog__card--title"><a href="blog-details.html">Possimus libero id moles cumqu.</a></h3>
-                                <p class="blog__card--desc">Namkand sodales vel online best prices when
-                                    an unknown printer took a galley of </p>
-                                <div class="blog__card--footer d-flex justify-content-between align-items-center">
-                                    <a class="blog__card--btn__link" href="blog-details.html">Read more
-                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58746 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178Z" fill="currentColor"></path>
-                                        </svg>
-                                    </a>
-                                    <ul class="social__share blog__card--social d-flex">
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.facebook.com">
-                                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.62891 8.625L8.01172 6.10938H5.57812V4.46875C5.57812 3.75781 5.90625 3.10156 7 3.10156H8.12109V0.941406C8.12109 0.941406 7.10938 0.75 6.15234 0.75C4.15625 0.75 2.84375 1.98047 2.84375 4.16797V6.10938H0.601562V8.625H2.84375V14.75H5.57812V8.625H7.62891Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Facebook</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://twitter.com">
-                                                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12.5508 2.90625C13.0977 2.49609 13.5898 2.00391 13.9727 1.42969C13.4805 1.64844 12.9062 1.8125 12.332 1.86719C12.9336 1.51172 13.3711 0.964844 13.5898 0.28125C13.043 0.609375 12.4141 0.855469 11.7852 0.992188C11.2383 0.417969 10.5 0.0898438 9.67969 0.0898438C8.09375 0.0898438 6.80859 1.375 6.80859 2.96094C6.80859 3.17969 6.83594 3.39844 6.89062 3.61719C4.51172 3.48047 2.37891 2.33203 0.957031 0.609375C0.710938 1.01953 0.574219 1.51172 0.574219 2.05859C0.574219 3.04297 1.06641 3.91797 1.85938 4.4375C1.39453 4.41016 0.929688 4.30078 0.546875 4.08203V4.10938C0.546875 5.50391 1.53125 6.65234 2.84375 6.92578C2.625 6.98047 2.35156 7.03516 2.10547 7.03516C1.91406 7.03516 1.75 7.00781 1.55859 6.98047C1.91406 8.12891 2.98047 8.94922 4.23828 8.97656C3.25391 9.74219 2.02344 10.207 0.683594 10.207C0.4375 10.207 0.21875 10.1797 0 10.1523C1.25781 10.9727 2.76172 11.4375 4.40234 11.4375C9.67969 11.4375 12.5508 7.08984 12.5508 3.28906C12.5508 3.15234 12.5508 3.04297 12.5508 2.90625Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Twitter</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.instagram.com">
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.125 3.60547C5.375 3.60547 3.98047 5.02734 3.98047 6.75C3.98047 8.5 5.375 9.89453 7.125 9.89453C8.84766 9.89453 10.2695 8.5 10.2695 6.75C10.2695 5.02734 8.84766 3.60547 7.125 3.60547ZM7.125 8.80078C6.00391 8.80078 5.07422 7.89844 5.07422 6.75C5.07422 5.62891 5.97656 4.72656 7.125 4.72656C8.24609 4.72656 9.14844 5.62891 9.14844 6.75C9.14844 7.89844 8.24609 8.80078 7.125 8.80078ZM11.1172 3.49609C11.1172 3.08594 10.7891 2.75781 10.3789 2.75781C9.96875 2.75781 9.64062 3.08594 9.64062 3.49609C9.64062 3.90625 9.96875 4.23438 10.3789 4.23438C10.7891 4.23438 11.1172 3.90625 11.1172 3.49609ZM13.1953 4.23438C13.1406 3.25 12.9219 2.375 12.2109 1.66406C11.5 0.953125 10.625 0.734375 9.64062 0.679688C8.62891 0.625 5.59375 0.625 4.58203 0.679688C3.59766 0.734375 2.75 0.953125 2.01172 1.66406C1.30078 2.375 1.08203 3.25 1.02734 4.23438C0.972656 5.24609 0.972656 8.28125 1.02734 9.29297C1.08203 10.2773 1.30078 11.125 2.01172 11.8633C2.75 12.5742 3.59766 12.793 4.58203 12.8477C5.59375 12.9023 8.62891 12.9023 9.64062 12.8477C10.625 12.793 11.5 12.5742 12.2109 11.8633C12.9219 11.125 13.1406 10.2773 13.1953 9.29297C13.25 8.28125 13.25 5.24609 13.1953 4.23438ZM11.8828 10.3594C11.6914 10.9062 11.2539 11.3164 10.7344 11.5352C9.91406 11.8633 8 11.7812 7.125 11.7812C6.22266 11.7812 4.30859 11.8633 3.51562 11.5352C2.96875 11.3164 2.55859 10.9062 2.33984 10.3594C2.01172 9.56641 2.09375 7.65234 2.09375 6.75C2.09375 5.875 2.01172 3.96094 2.33984 3.14062C2.55859 2.62109 2.96875 2.21094 3.51562 1.99219C4.30859 1.66406 6.22266 1.74609 7.125 1.74609C8 1.74609 9.91406 1.66406 10.7344 1.99219C11.2539 2.18359 11.6641 2.62109 11.8828 3.14062C12.2109 3.96094 12.1289 5.875 12.1289 6.75C12.1289 7.65234 12.2109 9.56641 11.8828 10.3594Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Instagram</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.youtube.com">
-                                                <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.0117 2.16797C14.8477 1.51172 14.3281 0.992188 13.6992 0.828125C12.5234 0.5 7.875 0.5 7.875 0.5C7.875 0.5 3.19922 0.5 2.02344 0.828125C1.39453 0.992188 0.875 1.51172 0.710938 2.16797C0.382812 3.31641 0.382812 5.77734 0.382812 5.77734C0.382812 5.77734 0.382812 8.21094 0.710938 9.38672C0.875 10.043 1.39453 10.5352 2.02344 10.6992C3.19922 11 7.875 11 7.875 11C7.875 11 12.5234 11 13.6992 10.6992C14.3281 10.5352 14.8477 10.043 15.0117 9.38672C15.3398 8.21094 15.3398 5.77734 15.3398 5.77734C15.3398 5.77734 15.3398 3.31641 15.0117 2.16797ZM6.34375 7.99219V3.5625L10.2266 5.77734L6.34375 7.99219Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Youtube</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog__card">
-                            <div class="blog__card--thumbnail">
-                                <a class="blog__card--thumbnail__link" href="blog-details.html"><img class="blog__card--thumbnail__img" src="assets/img/blog/blog1.webp" alt="blog-img"></a>
-                                <span class="blog__card--meta__date">18 <br> Oct</span>
-                            </div>
-                            <div class="blog__card--content">
-                                <span class="blog__card--meta">By: Rasalina</span>
-                                <h3 class="blog__card--title"><a href="blog-details.html">Beauty Skin Care Product In Stock</a></h3>
-                                <p class="blog__card--desc">Namkand sodales vel online best prices when
-                                    an unknown printer took a galley of </p>
-                                <div class="blog__card--footer d-flex justify-content-between align-items-center">
-                                    <a class="blog__card--btn__link" href="blog-details.html">Read more
-                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58746 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178Z" fill="currentColor"></path>
-                                        </svg>
-                                    </a>
-                                    <ul class="social__share blog__card--social d-flex">
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.facebook.com">
-                                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.62891 8.625L8.01172 6.10938H5.57812V4.46875C5.57812 3.75781 5.90625 3.10156 7 3.10156H8.12109V0.941406C8.12109 0.941406 7.10938 0.75 6.15234 0.75C4.15625 0.75 2.84375 1.98047 2.84375 4.16797V6.10938H0.601562V8.625H2.84375V14.75H5.57812V8.625H7.62891Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Facebook</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://twitter.com">
-                                                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12.5508 2.90625C13.0977 2.49609 13.5898 2.00391 13.9727 1.42969C13.4805 1.64844 12.9062 1.8125 12.332 1.86719C12.9336 1.51172 13.3711 0.964844 13.5898 0.28125C13.043 0.609375 12.4141 0.855469 11.7852 0.992188C11.2383 0.417969 10.5 0.0898438 9.67969 0.0898438C8.09375 0.0898438 6.80859 1.375 6.80859 2.96094C6.80859 3.17969 6.83594 3.39844 6.89062 3.61719C4.51172 3.48047 2.37891 2.33203 0.957031 0.609375C0.710938 1.01953 0.574219 1.51172 0.574219 2.05859C0.574219 3.04297 1.06641 3.91797 1.85938 4.4375C1.39453 4.41016 0.929688 4.30078 0.546875 4.08203V4.10938C0.546875 5.50391 1.53125 6.65234 2.84375 6.92578C2.625 6.98047 2.35156 7.03516 2.10547 7.03516C1.91406 7.03516 1.75 7.00781 1.55859 6.98047C1.91406 8.12891 2.98047 8.94922 4.23828 8.97656C3.25391 9.74219 2.02344 10.207 0.683594 10.207C0.4375 10.207 0.21875 10.1797 0 10.1523C1.25781 10.9727 2.76172 11.4375 4.40234 11.4375C9.67969 11.4375 12.5508 7.08984 12.5508 3.28906C12.5508 3.15234 12.5508 3.04297 12.5508 2.90625Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Twitter</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.instagram.com">
-                                                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.125 3.60547C5.375 3.60547 3.98047 5.02734 3.98047 6.75C3.98047 8.5 5.375 9.89453 7.125 9.89453C8.84766 9.89453 10.2695 8.5 10.2695 6.75C10.2695 5.02734 8.84766 3.60547 7.125 3.60547ZM7.125 8.80078C6.00391 8.80078 5.07422 7.89844 5.07422 6.75C5.07422 5.62891 5.97656 4.72656 7.125 4.72656C8.24609 4.72656 9.14844 5.62891 9.14844 6.75C9.14844 7.89844 8.24609 8.80078 7.125 8.80078ZM11.1172 3.49609C11.1172 3.08594 10.7891 2.75781 10.3789 2.75781C9.96875 2.75781 9.64062 3.08594 9.64062 3.49609C9.64062 3.90625 9.96875 4.23438 10.3789 4.23438C10.7891 4.23438 11.1172 3.90625 11.1172 3.49609ZM13.1953 4.23438C13.1406 3.25 12.9219 2.375 12.2109 1.66406C11.5 0.953125 10.625 0.734375 9.64062 0.679688C8.62891 0.625 5.59375 0.625 4.58203 0.679688C3.59766 0.734375 2.75 0.953125 2.01172 1.66406C1.30078 2.375 1.08203 3.25 1.02734 4.23438C0.972656 5.24609 0.972656 8.28125 1.02734 9.29297C1.08203 10.2773 1.30078 11.125 2.01172 11.8633C2.75 12.5742 3.59766 12.793 4.58203 12.8477C5.59375 12.9023 8.62891 12.9023 9.64062 12.8477C10.625 12.793 11.5 12.5742 12.2109 11.8633C12.9219 11.125 13.1406 10.2773 13.1953 9.29297C13.25 8.28125 13.25 5.24609 13.1953 4.23438ZM11.8828 10.3594C11.6914 10.9062 11.2539 11.3164 10.7344 11.5352C9.91406 11.8633 8 11.7812 7.125 11.7812C6.22266 11.7812 4.30859 11.8633 3.51562 11.5352C2.96875 11.3164 2.55859 10.9062 2.33984 10.3594C2.01172 9.56641 2.09375 7.65234 2.09375 6.75C2.09375 5.875 2.01172 3.96094 2.33984 3.14062C2.55859 2.62109 2.96875 2.21094 3.51562 1.99219C4.30859 1.66406 6.22266 1.74609 7.125 1.74609C8 1.74609 9.91406 1.66406 10.7344 1.99219C11.2539 2.18359 11.6641 2.62109 11.8828 3.14062C12.2109 3.96094 12.1289 5.875 12.1289 6.75C12.1289 7.65234 12.2109 9.56641 11.8828 10.3594Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Instagram</span>
-                                            </a>
-                                        </li>
-                                        <li class="social__share--list">
-                                            <a class="social__share--icon" target="_blank" href="https://www.youtube.com">
-                                                <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.0117 2.16797C14.8477 1.51172 14.3281 0.992188 13.6992 0.828125C12.5234 0.5 7.875 0.5 7.875 0.5C7.875 0.5 3.19922 0.5 2.02344 0.828125C1.39453 0.992188 0.875 1.51172 0.710938 2.16797C0.382812 3.31641 0.382812 5.77734 0.382812 5.77734C0.382812 5.77734 0.382812 8.21094 0.710938 9.38672C0.875 10.043 1.39453 10.5352 2.02344 10.6992C3.19922 11 7.875 11 7.875 11C7.875 11 12.5234 11 13.6992 10.6992C14.3281 10.5352 14.8477 10.043 15.0117 9.38672C15.3398 8.21094 15.3398 5.77734 15.3398 5.77734C15.3398 5.77734 15.3398 3.31641 15.0117 2.16797ZM6.34375 7.99219V3.5625L10.2266 5.77734L6.34375 7.99219Z" fill="currentColor" />
-                                                </svg>
-                                                <span class="visually-hidden">Youtube</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper__nav--btn swiper-button-next">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" -chevron-right">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </div>
-                <div class="swiper__nav--btn swiper-button-prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" -chevron-left">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End blog section -->
-
-    <!-- Start Testimonials -->
-    <!-- <section class="testimonial__section testimonial__bg section--padding pt-0">
-        <div class="container">
-            <div class="section__heading style2 text-center mb-40">
-                <h2 class="section__heading--maintitle">What People Are Saying</h2>
-            </div>
-            <div class="testimonial__section--inner">
-                <div class="testimonial__active--one  swiper">
-
-                    <div class="swiper__nav--btn swiper-button-next">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" -chevron-right">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </div>
-                    <div class="swiper__nav--btn swiper-button-prev">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" -chevron-left">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </div>
-                </div>
-                <div class="testimonial__active--two swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial__items--content">
-                                <p class="testimonial__items--desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                <ul class="rating testimonial__rating d-flex justify-content-center">
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                </ul>
-                                <span class="testimonial__items--subtitle">Calire copper</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial__items--content">
-                                <p class="testimonial__items--desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                <ul class="rating testimonial__rating d-flex justify-content-center">
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                    <li class="rating__list">
-                                        <span class="rating__icon">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.08398 0.921875L4.56055 4.03906L1.11523 4.53125C0.505859 4.625 0.271484 5.375 0.716797 5.82031L3.17773 8.23438L2.5918 11.6328C2.49805 12.2422 3.1543 12.7109 3.69336 12.4297L6.76367 10.8125L9.81055 12.4297C10.3496 12.7109 11.0059 12.2422 10.9121 11.6328L10.3262 8.23438L12.7871 5.82031C13.2324 5.375 12.998 4.625 12.3887 4.53125L8.9668 4.03906L7.41992 0.921875C7.16211 0.382812 6.36523 0.359375 6.08398 0.921875Z" fill="currentColor" />
-                                            </svg>
-                                        </span>
-                                    </li>
-                                </ul>
-                                <span class="testimonial__items--subtitle">Calire copper</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-    <!-- End Testimonials -->
 
     <!-- Start brand section -->
     <div class="brand__section section--padding pt-0">
