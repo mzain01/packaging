@@ -20,7 +20,7 @@ include('header.php');
         </div>
     </section>
     <!-- End breadcrumb section -->
-z
+    z
     <!-- Start about section -->
     <section class="about__section section--padding mb-95">
         <div class="container">
@@ -57,8 +57,9 @@ z
     <!-- End about section -->
 
 
-     <!-- Start contact section -->
-     <section class="contact__section section--padding">
+
+    <!-- Start contact section -->
+    <section class="contact__section section--padding">
         <div class="container">
             <div class="contact__section--heading text-center mb-40">
                 <h2 class="contact__section--heading__maintitle">Cutom Order</h2>
@@ -71,26 +72,39 @@ z
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input1">First Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="firstname" id="input1" placeholder="Your First Name" type="text">
+                                    <label class="contact__form--label" for="input1">Name <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name" id="input1" placeholder="Name" type="text">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input2">Last Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="lastname" id="input2" placeholder="Your Last Name" type="text">
-                                </div>
-                            </div>
+
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input3">Phone Number <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="number" id="input3" placeholder="Phone number" type="text">
+                                    <input class="contact__form--input" name="number" id="input3" placeholder="Phone number" type="number">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input4">Email <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="email" id="input4" placeholder="Email" type="text">
+                                    <input class="contact__form--input" name="email" id="input4" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input2">Name of Product <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="name of product" type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input4">Quantity <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="number" id="input4" placeholder="Quantity" type="number">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input2">Budget <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="Budget" type="number">
                                 </div>
                             </div>
                             <div class="col-12">

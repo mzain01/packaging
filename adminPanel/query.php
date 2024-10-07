@@ -283,7 +283,6 @@ if (isset($_POST['update_product'])) {
         if ($extension == "jpg" || $extension == "png" || $extension == "jpeg" || $extension == "webp") {
             if (move_uploaded_file($productImageTmpName, $destination)) {
                 $query = $pdo->prepare("update products set product_name = :product_name, product_short_desc = :product_short_desc, product_long_desc = :product_long_desc, product_industry = :product_industry, product_img = :product_img where id = :id");
-                
                 $query->bindParam('product_img', $productImageName);
             }
         }

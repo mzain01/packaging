@@ -97,8 +97,8 @@
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.php">Contact Us</a></li>
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.php">About Us</a></li>
                             <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="wishlist.html">Wishlist</a></li> -->
-                            <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="privacy-policy.html">Privacy Policy</a></li> -->
-                            <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="faq.php">Frequently</a></li> -->
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="privacy-policy.php">Privacy Policy</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="terms-&-conditions.php">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>

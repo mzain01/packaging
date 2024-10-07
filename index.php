@@ -100,19 +100,20 @@ include('header.php');
             <div class="shipping__inner style2 d-flex">
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping1.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping2.webp" alt="icon-img">
+                     
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">No Die & Plate Charge</h2>
+                        <h2 class="shipping__content--title h3">Get Instant Quote</h2>
                         <!-- <p class="shipping__content--desc">Free shipping over $100</p> -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">High Quality Offset Printing</h2>
+                        <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
                         <!-- <p class="shipping__content--desc">Contact us 24 hours a day</p>  -->
                     </div>
                 </div>
@@ -121,7 +122,7 @@ include('header.php');
                         <img src="assets/img/other/shipping3.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">6 Days TurnAround</h2>
+                        <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
                         <!-- <p class="shipping__content--desc">You have 30 days to Return</p> -->
                     </div>
                 </div>
@@ -130,7 +131,7 @@ include('header.php');
                         <img src="assets/img/other/shipping4.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Request Free Template</h2>
+                        <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
                         <!-- <p class="shipping__content--desc">We ensure secure payment</p> -->
                     </div>
                 </div>
@@ -148,7 +149,7 @@ include('header.php');
             <div class="product__section--inner pb-15 product__swiper--activation swiper">
                 <div class="swiper-wrapper">
                     <?php
-                    $query = $pdo->prepare("SELECT * FROM products WHERE id BETWEEN 47 AND 55");
+                    $query = $pdo->prepare("SELECT * FROM products WHERE id BETWEEN 320  AND 327 ");
                     $query->execute();
                     $allproducts = $query->fetchAll(PDO::FETCH_ASSOC);
                     if ($allproducts) {
@@ -594,7 +595,7 @@ include('header.php');
                     <div class="col-lg-8">
                         <div class="form-container">
                             <h3 class="mb-4">Get Ready For a Delightful Quote!</h3>
-                            <form>
+                            <form method="post" action="">
                                 <div class="mb-3">
                                     <input type="text" class="form-control" placeholder="Product Name" required>
                                 </div>
@@ -958,7 +959,7 @@ include('header.php');
                             </div>
 
 
-                            <div id="description" class="tab-pane fade" role="tabpanel">
+                            <div id="description" class="tab-pane fade custom-ulli" role="tabpanel">
                                 <h1>Custom Printed Boxes by Need Packaging</h1>
                                 <p>At Need Packaging, we specialize in creating innovative and high-quality custom packaging that stands out in the market. Whether you're a small business or a large enterprise, our tailored solutions are designed to meet your packaging needs with style and functionality. From design to production and sourcing, we are your trusted partner in bringing your products to life.
                                 <p>
@@ -990,9 +991,47 @@ include('header.php');
                                     <li>●<b> Brochures:  </b>Informative, professional brochures for your business.</li>
                                     <li>●<b> 	Catalogs & Magazines:  </b>  High-quality catalogs and magazines for your products and services.</li>
                                     <li>●<b> Invitation Cards: </b>Personalize your invites with our custom designs.</li>
-                                    <li>●<b> Custom Automotive Boxes: </b> Tough packaging solutions for automotive parts and accessories.</li>
+                                    <li><b>●	Posters: </b>Large-scale posters for events, marketing, and branding.</li>
+                                    <li><b>●	Business Cards: </b>First impressions matter – get high-quality business cards.</li>
+                                    <li><b>●	Labels & Stickers:  </b>Custom labels and stickers for products or branding.</li>
+                                    <li><b>●	Paper Bags:</b>Eco-friendly and stylish custom paper bags.</li>
+                                    <li><b>●	Post Cards</b>Send personalized messages with custom postcards.</li>
+                                    <li><b>●	Letterheads: </b>Professional letterheads for official communications</li>
+
                                 </ul>
                                 </p>
+
+                                <h2>Product Sourcing</h2>
+                                <p>Looking for additional products to complete your packaging needs? We provide product sourcing for a wide range of items:</p>
+                                <p>
+                                <ul>
+                                 
+                                    <li><b>●	Decor Items</b></li>
+                                    <li><b>●	Apparel</b></li>
+                                    <li><b>●	Tools & Equipment</b></li>
+                                    <li><b>●	Baby Products</b></li>
+                                    <li><b>●	Toys & Games</b></li>
+
+                                </ul>
+                                <p>We handle the hard work of sourcing so you can focus on growing your business.</p>
+                                </p>
+
+                                <h2>Our Services</h2>
+                                <p>At Need Packaging, we go beyond just packaging. Our services are designed to enhance your experience and ensure that your products are presented in the best possible way.</p>
+                                <p>
+                                <ul>
+                                 
+                                    <li><b>●	Warehouse Services:</b>Storage and logistics to manage your packaging inventory.</li>
+                                    <li><b>●	Artwork Design: </b>Custom designs crafted to meet your branding needs.</li>
+                                    <li><b>●	Sampling & Prototyping</b>Test your custom packaging with our prototyping services before production.</li>
+                                   
+                                </ul>
+                                <p> <b> Why Choose Us? </b>At Need Packaging, we believe in delivering packaging solutions that not only protect your products but also help you build your brand. With our cutting-edge technology, high-quality materials, and unmatched customer service, we ensure that every project is executed to perfection.</p>
+                                <p>Let’s create something amazing together! Explore our custom packaging products and services, and contact us today to get started.</p>
+                                </p>
+                             
+
+                                
                             </div>
                         </div>
                     </div>

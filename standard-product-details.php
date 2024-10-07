@@ -141,17 +141,17 @@ if (isset($_GET['id'])) {
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4 mb-3 cust-field">
+                                            <div class="col-md-6 mb-3 cust-field">
                                                 <input type="number" class="form-control" name="quantity1" placeholder="Quantity 1" required>
                                             </div>
-                                            <div class="col-md-4 mb-3 cust-field">
-                                                <input type="number" class="form-control" name="quantity2" placeholder="Quantity 2" required>
-                                            </div>
-                                            <div class="col-md-4 mb-3 cust-field">
+                                         
+                                            <div class="col-md-6 mb-3 cust-field">
                                                 <select class="form-select" required name="color">
                                                     <option selected disabled>Select Color</option>
                                                     <option value="color1">Color 1</option>
                                                     <option value="color2">Color 2</option>
+                                                    <option value="color1">Color 3</option>
+                                                    <option value="color2">Color 4</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -173,9 +173,7 @@ if (isset($_GET['id'])) {
                                         <div class="text-center mb-3 ">
                                             <button type="submit" name="product_form" class="btn btn-dark w-100">Submit</button>
                                         </div>
-                                        <p class="text-center text-muted small">
-                                            This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
-                                        </p>
+                                        <input type="hidden" value="<?php echo $product['product_name']?>">
                                     </form>
                                 </div>
 

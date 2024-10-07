@@ -175,9 +175,7 @@ if (isset($_GET['id'])) {
                                         <div class="text-center mb-3 ">
                                             <button type="submit" name="product_form" class="btn btn-dark w-100">Submit</button>
                                         </div>
-                                        <!-- <p class="text-center text-muted small">
-                                            This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
-                                        </p> -->
+                                      <input type="hidden" value="<?php echo $product['product_name'] ?>">
                                     </form>
                                 </div>
 

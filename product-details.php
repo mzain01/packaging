@@ -129,7 +129,7 @@ if (isset($_GET['id'])) {
 
                                     <h3 class="mb-4">Instant Quote</h3>
                                     <form method="post">
-                                        <input type="hidden" name="" value="<?php echo $product['id'] ?>">
+                                        <input type="hidden" name="" value="<?php echo $product['product_name'] ?>">
                                         <div class="row">
                                             <div class="col-md-4 mb-3 cust-field">
                                                 <input type="text" class="form-control" name="length" placeholder="Length" required>

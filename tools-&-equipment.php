@@ -57,8 +57,8 @@ z
     <!-- End about section -->
 
 
-     <!-- Start contact section -->
-     <section class="contact__section section--padding">
+    <!-- Start contact section -->
+    <section class="contact__section section--padding">
         <div class="container">
             <div class="contact__section--heading text-center mb-40">
                 <h2 class="contact__section--heading__maintitle">Cutom Order</h2>
@@ -71,26 +71,39 @@ z
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input1">First Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="firstname" id="input1" placeholder="Your First Name" type="text">
+                                    <label class="contact__form--label" for="input1">Name <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name" id="input1" placeholder="Name" type="text">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input2">Last Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="lastname" id="input2" placeholder="Your Last Name" type="text">
-                                </div>
-                            </div>
+
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input3">Phone Number <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="number" id="input3" placeholder="Phone number" type="text">
+                                    <input class="contact__form--input" name="number" id="input3" placeholder="Phone number" type="number">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input4">Email <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="email" id="input4" placeholder="Email" type="text">
+                                    <input class="contact__form--input" name="email" id="input4" placeholder="Email" type="email">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input2">Name of Product <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="name of product" type="text">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input4">Quantity <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="number" id="input4" placeholder="Quantity" type="number">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input2">Budget <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="Budget" type="number">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -103,6 +116,7 @@ z
                         <button class="contact__form--btn primary__btn" type="submit"> <span>Submit Now</span></button>
                     </form>
                 </div>
+            
             </div>
         </div>
         </div>
@@ -133,29 +147,7 @@ z
 
 
 
-    <!-- Start brand section -->
-    <div class="brand__section brand__section--style3 section--padding">
-        <div class="container">
-            <div class="brand__section--inner__style3 d-flex justify-content-between align-items-center">
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo1.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo2.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo3.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo4.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo5.webp" alt="brand-logo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End brand section -->
+  
 
     <!-- Start shipping section -->
     <section class="shipping__section section--padding">
@@ -163,20 +155,20 @@ z
             <div class="shipping__inner mb-0 style2 d-flex">
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping1.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping2.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Free Shipping</h2>
-                        <p class="shipping__content--desc">Free shipping over $100</p>
+                        <h2 class="shipping__content--title h3">Get Instant Quote</h2>
+                   
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Support 24/7</h2>
-                        <p class="shipping__content--desc">Contact us 24 hours a day</p>
+                        <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
+                      
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -184,8 +176,8 @@ z
                         <img src="assets/img/other/shipping3.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">100% Money Back</h2>
-                        <p class="shipping__content--desc">You have 30 days to Return</p>
+                        <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
+            
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -193,8 +185,8 @@ z
                         <img src="assets/img/other/shipping4.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Payment Secure</h2>
-                        <p class="shipping__content--desc">We ensure secure payment</p>
+                        <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
+                 
                     </div>
                 </div>
             </div>

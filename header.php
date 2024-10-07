@@ -547,7 +547,7 @@ include('adminPanel/query.php');
 
                                             <!-- <li class="header__sub--menu__items"><a href="artwork-design.php" class="header__sub--menu__link">Artwork Design</a></li> -->
                                            
-                                            <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-2.png" alt=""><a href="structural.php" class="header__sub--menu__link">Arwrok and Design</a></li>
+                                            <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-2.png" alt=""><a href="structural.php" class="header__sub--menu__link">Artwrok and Design</a></li>
                                             <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon.png" alt=""><a href="sampling.php" class="header__sub--menu__link">Sampling & Prototyping</a></li>
                                           
                                         </ul>

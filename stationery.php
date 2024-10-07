@@ -212,29 +212,7 @@ z
 
 
 
-    <!-- Start brand section -->
-    <div class="brand__section brand__section--style3 section--padding">
-        <div class="container">
-            <div class="brand__section--inner__style3 d-flex justify-content-between align-items-center">
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo1.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo2.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo3.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo4.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo5.webp" alt="brand-logo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End brand section -->
+   
 
     <!-- Start shipping section -->
     <section class="shipping__section section--padding">
@@ -242,20 +220,20 @@ z
             <div class="shipping__inner mb-0 style2 d-flex">
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping1.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping2.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Free Shipping</h2>
-                        <p class="shipping__content--desc">Free shipping over $100</p>
+                        <h2 class="shipping__content--title h3">Get Instant Quote</h2>
+                   
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+                    <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Support 24/7</h2>
-                        <p class="shipping__content--desc">Contact us 24 hours a day</p>
+                        <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
+                      
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -263,8 +241,8 @@ z
                         <img src="assets/img/other/shipping3.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">100% Money Back</h2>
-                        <p class="shipping__content--desc">You have 30 days to Return</p>
+                        <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
+            
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -272,8 +250,8 @@ z
                         <img src="assets/img/other/shipping4.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Payment Secure</h2>
-                        <p class="shipping__content--desc">We ensure secure payment</p>
+                        <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
+                 
                     </div>
                 </div>
             </div>
