@@ -156,13 +156,13 @@ if (isset($_GET['id'])) {
                                             </div>
                                         </div>
                                         <div class="mb-3 ">
-                                            <input type="text" class="form-control" name="user_name" placeholder="Enter Your Name" required>
+                                            <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                                         </div>
                                         <div class="mb-3">
-                                            <input type="email" class="form-control" name="user_email" placeholder="Email Address" required>
+                                            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                                         </div>
                                         <div class="mb-3">
-                                            <input type="tel" class="form-control" name="user_number" placeholder="Phone Number" required>
+                                            <input type="tel" class="form-control" name="number" placeholder="Phone Number" required>
                                         </div>
                                         <div class="mb-3">
                                             <input type="file" name="image" class="form-control" required>
@@ -170,10 +170,21 @@ if (isset($_GET['id'])) {
                                         <div class="mb-3">
                                             <textarea class="form-control" rows="4" placeholder="Project Description" name="description" required></textarea>
                                         </div>
+                                        <input type="hidden" name="hiddencapcha" value="">
+                                    <input type="hidden" name="ftype" value="Popup Form">
+                                    <input type="hidden" name="ip2loc_ip" value="<?= $ip ?>">
+                                    <input type="hidden" name="ip2loc_isp" value="">
+                                    <input type="hidden" name="ip2loc_org" value="">
+                                    <input type="hidden" name="ip2loc_country" value="<?= $country ?>">
+                                    <input type="hidden" name="ip2loc_region" value="<?= $region ?>">
+                                    <input type="hidden" name="ip2loc_city" value="<?= $city ?>">
+                                    <input type="hidden" name="fullpageurl" value="<?= "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>">
+                                    <input type="hidden" value="<?php echo $product['product_name']?>">
                                         <div class="text-center mb-3 ">
-                                            <button type="submit" name="product_form" class="btn btn-dark w-100">Submit</button>
+                                            <button type="submit" name="cta" class="btn btn-dark w-100">Submit</button>
                                         </div>
-                                        <input type="hidden" value="<?php echo $product['product_name']?>">
+                                      
+                                     
                                     </form>
                                 </div>
 

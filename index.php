@@ -66,15 +66,15 @@ include('header.php');
                     <div class="hero__slider--inner hero__slider--activation swiper">
                         <div class="hero__slider--wrapper swiper-wrapper">
                             <div class="swiper-slide ">
-                                <img src="assets/img/slider/home2-slider1-bg.webp">
+                                <img src="assets/img/banner/img-1.jpg">
 
 
                             </div>
                             <div class="swiper-slide ">
-                                <img src="assets/img/slider/home2-slider2-bg.webp">
+                                <img src="assets/img/banner/img-2.jpg">
                             </div>
                             <div class="swiper-slide ">
-                                <img src="assets/img/slider/home2-slider3-bg.webp">
+                                <img src="assets/img/banner/img-3.jpg">
                             </div>
                         </div>
                         <div class="swiper__nav--btn swiper-button-next">
@@ -100,8 +100,8 @@ include('header.php');
             <div class="shipping__inner style2 d-flex">
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                    <img src="assets/img/other/shipping2.webp" alt="icon-img">
-                     
+                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Get Instant Quote</h2>
@@ -110,7 +110,7 @@ include('header.php');
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                    <img src="assets/img/other/shipping1.webp" alt="icon-img">
+                        <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
@@ -146,10 +146,10 @@ include('header.php');
             <div class="section__heading border-bottom mb-30">
                 <h2 class="section__heading--maintitle">Popular <span>Products</span></h2>
             </div>
-            <div class="product__section--inner pb-15 product__swiper--activation swiper">
-                <div class="swiper-wrapper">
+            <div class="product__section--inner product__swiper--activation swiper custm-section">
+                <div class="swiper-wrapper custom-swiper">
                     <?php
-                    $query = $pdo->prepare("SELECT * FROM products WHERE id BETWEEN 320  AND 327 ");
+                    $query = $pdo->prepare("SELECT * FROM products WHERE id IN (45, 21, 12, 42, 27, 32)");
                     $query->execute();
                     $allproducts = $query->fetchAll(PDO::FETCH_ASSOC);
                     if ($allproducts) {
@@ -562,9 +562,9 @@ include('header.php');
     <section class="discount__banner--section section--padding pt-0">
         <div class="container">
             <div class="discount__banner--thumbnail position-relative">
-                <img class="border-radius-5 discount__banner--img__height" src="assets/img/banner/discount-banner-thumb.jpg" alt="banner-img">
+                <img class="border-radius-5 discount__banner--img__height" src="assets/img/banner/deal-section-bg.webp" alt="banner-img">
                 <div class="discount__banner--content">
-                    <h2 class="discount__banner--content__title ">Special Offer: 10% Off <br>First Order!</h2>
+                    <h2 class="discount__banner--content__title ">Special Offer: 10% Off First Order!</h2>
                     <!-- <span class="discount__banner--content__subtitle">If you do not see your industry listed, you can explore all industries here. Alternatively, connect with our helpful representatives via live chat or by completing our quote form with your specific requirements. We are committed to finding a solution that meets your industry needs.</span> -->
                     <p>Order now and get 10% off your first custom packaging order! Fast, reliable service and premium-quality materials guaranteed.</p>
 
@@ -633,22 +633,32 @@ include('header.php');
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                                    <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                    <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                    <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
                                 </div>
                                 <div class="mb-3">
                                     <input type="file" class="form-control" required>
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" rows="4" placeholder="Project Description" required></textarea>
+                                    <textarea class="form-control" rows="4" name="msg" placeholder="Project Description" required></textarea>
                                 </div>
                                 <div class="text-center mb-3">
-                                    <button type="submit" class="btn submit-btn">Submit</button>
+                                    <button type="submit" name="cta" class="btn submit-btn">Submit</button>
+
+                                    <input type="hidden" name="hiddencapcha" value="">
+                                    <input type="hidden" name="ftype" value="Popup Form">
+                                    <input type="hidden" name="ip2loc_ip" value="<?= $ip ?>">
+                                    <input type="hidden" name="ip2loc_isp" value="">
+                                    <input type="hidden" name="ip2loc_org" value="">
+                                    <input type="hidden" name="ip2loc_country" value="<?= $country ?>">
+                                    <input type="hidden" name="ip2loc_region" value="<?= $region ?>">
+                                    <input type="hidden" name="ip2loc_city" value="<?= $city ?>">
+                                    <input type="hidden" name="fullpageurl" value="<?= "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>">
                                 </div>
                                 <p class="text-center text-muted">
                                     This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
@@ -656,7 +666,7 @@ include('header.php');
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mt-5">
                         <div class="container form-img-container-2">
                             <img src="assets/img/form.jpg" alt="Payment and Guarantee Icons">
                         </div>
@@ -987,16 +997,16 @@ include('header.php');
                                 <p>We also offer a variety of stationery design and printing solutions that complement your business and branding needs:</p>
                                 <p>
                                 <ul>
-                                    <li>●<b> 	Banners:</b> Capture attention at events with eye-catching banners.</li>
-                                    <li>●<b> Brochures:  </b>Informative, professional brochures for your business.</li>
-                                    <li>●<b> 	Catalogs & Magazines:  </b>  High-quality catalogs and magazines for your products and services.</li>
+                                    <li>●<b> Banners:</b> Capture attention at events with eye-catching banners.</li>
+                                    <li>●<b> Brochures: </b>Informative, professional brochures for your business.</li>
+                                    <li>●<b> Catalogs & Magazines: </b> High-quality catalogs and magazines for your products and services.</li>
                                     <li>●<b> Invitation Cards: </b>Personalize your invites with our custom designs.</li>
-                                    <li><b>●	Posters: </b>Large-scale posters for events, marketing, and branding.</li>
-                                    <li><b>●	Business Cards: </b>First impressions matter – get high-quality business cards.</li>
-                                    <li><b>●	Labels & Stickers:  </b>Custom labels and stickers for products or branding.</li>
-                                    <li><b>●	Paper Bags:</b>Eco-friendly and stylish custom paper bags.</li>
-                                    <li><b>●	Post Cards</b>Send personalized messages with custom postcards.</li>
-                                    <li><b>●	Letterheads: </b>Professional letterheads for official communications</li>
+                                    <li><b>● Posters: </b>Large-scale posters for events, marketing, and branding.</li>
+                                    <li><b>● Business Cards: </b>First impressions matter – get high-quality business cards.</li>
+                                    <li><b>● Labels & Stickers: </b>Custom labels and stickers for products or branding.</li>
+                                    <li><b>● Paper Bags:</b>Eco-friendly and stylish custom paper bags.</li>
+                                    <li><b>● Post Cards</b>Send personalized messages with custom postcards.</li>
+                                    <li><b>● Letterheads: </b>Professional letterheads for official communications</li>
 
                                 </ul>
                                 </p>
@@ -1005,12 +1015,12 @@ include('header.php');
                                 <p>Looking for additional products to complete your packaging needs? We provide product sourcing for a wide range of items:</p>
                                 <p>
                                 <ul>
-                                 
-                                    <li><b>●	Decor Items</b></li>
-                                    <li><b>●	Apparel</b></li>
-                                    <li><b>●	Tools & Equipment</b></li>
-                                    <li><b>●	Baby Products</b></li>
-                                    <li><b>●	Toys & Games</b></li>
+
+                                    <li><b>● Decor Items</b></li>
+                                    <li><b>● Apparel</b></li>
+                                    <li><b>● Tools & Equipment</b></li>
+                                    <li><b>● Baby Products</b></li>
+                                    <li><b>● Toys & Games</b></li>
 
                                 </ul>
                                 <p>We handle the hard work of sourcing so you can focus on growing your business.</p>
@@ -1020,18 +1030,18 @@ include('header.php');
                                 <p>At Need Packaging, we go beyond just packaging. Our services are designed to enhance your experience and ensure that your products are presented in the best possible way.</p>
                                 <p>
                                 <ul>
-                                 
-                                    <li><b>●	Warehouse Services:</b>Storage and logistics to manage your packaging inventory.</li>
-                                    <li><b>●	Artwork Design: </b>Custom designs crafted to meet your branding needs.</li>
-                                    <li><b>●	Sampling & Prototyping</b>Test your custom packaging with our prototyping services before production.</li>
-                                   
+
+                                    <li><b>● Warehouse Services:</b>Storage and logistics to manage your packaging inventory.</li>
+                                    <li><b>● Artwork Design: </b>Custom designs crafted to meet your branding needs.</li>
+                                    <li><b>● Sampling & Prototyping</b>Test your custom packaging with our prototyping services before production.</li>
+
                                 </ul>
                                 <p> <b> Why Choose Us? </b>At Need Packaging, we believe in delivering packaging solutions that not only protect your products but also help you build your brand. With our cutting-edge technology, high-quality materials, and unmatched customer service, we ensure that every project is executed to perfection.</p>
                                 <p>Let’s create something amazing together! Explore our custom packaging products and services, and contact us today to get started.</p>
                                 </p>
-                             
 
-                                
+
+
                             </div>
                         </div>
                     </div>
@@ -1040,31 +1050,6 @@ include('header.php');
         </div>
     </section>
     <!-- Tabs End -->
-
-
-    <!-- Start brand section -->
-    <div class="brand__section section--padding pt-0">
-        <div class="container">
-            <div class="brand__section--inner d-flex justify-content-between align-items-center">
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo1.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo2.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo3.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo4.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo5.webp" alt="brand-logo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End brand section -->
 
 </main>
 

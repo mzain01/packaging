@@ -5075,12 +5075,32 @@ input[type=number]::-webkit-outer-spin-button {
   visibility: hidden;
 }
 
-/* .product__card:hover .product__card--footer {
-  opacity: 1;
-  visibility: visible;
-  bottom: 90px;
-  box-shadow: 4px 4px 10px 0px #0000002b;
-} */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .product__card:hover .product__card--footer {
+    opacity: 1;
+    visibility: visible;
+    bottom: 55px;
+    box-shadow: 4px 4px 10px 0px #0000002b;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+  .product__card:hover .product__card--footer {
+    opacity: 1;
+    visibility: visible;
+    bottom: 55px;
+    box-shadow: 4px 4px 10px 0px #0000002b;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  .product__card:hover .product__card--footer {
+    opacity: 1;
+    visibility: visible;
+    bottom: 80px;
+    box-shadow: 4px 4px 10px 0px #0000002b;
+  }
+}
 
 .product__card--thumbnail {
   padding: 2rem;
@@ -5119,7 +5139,7 @@ input[type=number]::-webkit-outer-spin-button {
   .product__card:hover .product__card--footer {
     opacity: 1 !important;
     visibility: visible !important;
-    bottom: 122px !important;
+    bottom: 128px !important;
     box-shadow: 4px 4px 10px 0px #0000002b !important;
   }
 }
@@ -6173,7 +6193,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media only screen and (min-width: 576px) {
   .discount__banner--content {
     left: 1rem;
-    width: 390px;
+    /* width: 390px; */
   }
 
   .discount__banner--content br {
@@ -9244,6 +9264,13 @@ input.quickview__value--number {
   }
 }
 
+.custom-swiper{
+  height: 50% !important;
+}
+
+
+
+
 .pagination__item--current {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
@@ -9291,9 +9318,9 @@ input.quickview__value--number {
   margin-right: 0;
 }
 
-.about__thumb--items:first-child {
+/* .about__thumb--items:first-child {
   margin-top: 8rem;
-}
+} */
 
 @media only screen and (max-width: 991px) {
   .about__thumb--items:first-child {
@@ -13400,9 +13427,9 @@ margin-bottom: 8px;
     width: 80%;
   }
 
-  .discount__banner--content {
+  /* .discount__banner--content {
     width: 610px;
-  }
+  } */
 
 }
 

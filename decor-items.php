@@ -20,30 +20,25 @@ include('header.php');
         </div>
     </section>
     <!-- End breadcrumb section -->
-z
+    z
     <!-- Start about section -->
     <section class="about__section section--padding mb-95">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="about__thumb d-flex">
                         <div class="about__thumb--items">
                             <img class="about__thumb--img border-radius-5" src="assets/img/other/about-thumb-list1.webp"
                                 alt="about-thumb">
                         </div>
-                        <div class="about__thumb--items position__relative">
-                            <img class="about__thumb--img border-radius-5" src="assets/img/other/about-thumb-list1.webp"
-                                alt="about-thumb">
-
-                        </div>
+                     
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div class="about__content">
                         <!-- <span class="about__content--subtitle text__secondary mb-20"> Why Choose us</span> -->
                         <h2 class="about__content--maintitle mb-25">Decor Items</h2>
-                        <p class="about__content--desc mb-20">Experience the ultimate packaging innovation with Plus Printers' Structural Design Engineering services. Our expert team is committed to crafting not just packaging, but cost-effective, protective solutions that elevate your brand. We blend innovative engineering with a focus on reducing material costs and safeguarding products, ensuring every design is as practical as it is striking. Through our meticulous approach, we deliver cutting-edge, high-impact packaging that not just protects your products but amplifies your brand authority. Trust in our fusion of aesthetic appeal and functional excellence to transform your product packaging into a memorable brand experience.</p>
-                        <p class="about__content--desc mb-25">Experience the ultimate packaging innovation with Plus Printers' Structural Design Engineering services. Our expert team is committed to crafting not just packaging, but cost-effective, protective solutions that elevate your brand. We blend innovative engineering with a focus on reducing material costs and safeguarding products, ensuring every design is as practical as it is striking. Through our meticulous approach, we deliver cutting-edge, high-impact packaging that not just protects your products but amplifies your brand authority. Trust in our fusion of aesthetic appeal and functional excellence to transform your product packaging into a memorable brand experience</p>
+                        <p class="about__content--desc mb-20">At Need Packaging, we specialize in sourcing a wide variety of decor items to help your business create memorable and visually captivating spaces. Whether you're looking for home decor, event decorations, seasonal displays, or custom pieces for your retail store, we work with skilled manufacturers to source unique and trend-driven products. Our product sourcing services cover everything from decorative lighting and wall art to furniture and accent pieces, ensuring that each item meets the highest standards of quality and aesthetic appeal. With a focus on functionality, design, and sustainability, we provide you with decor options that enhance your brand’s identity and customer experience. Whether you need modern, minimalist designs or more eclectic and artistic pieces, we tailor our sourcing to your specific preferences and budget. Our team handles all aspects of the sourcing process, from product selection to supplier coordination, ensuring timely delivery and cost-effective solutions. Transform any space with Need Packaging's expert decor sourcing services, where creativity meets efficiency.</p>
                         <!-- <div class="about__author position__relative">
                             <h3 class="about__author--name h4">Bruce Sutton</h3>
                             <span class="about__author--rank">Spa Manager</span>
@@ -71,11 +66,16 @@ z
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input1">Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="name" id="input1" placeholder="Name" type="text">
+                                    <label class="contact__form--label" for="input1">First Name <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="name" id="input1" placeholder="Your First Name" type="text">
                                 </div>
                             </div>
-
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact__form--list mb-20">
+                                    <label class="contact__form--label" for="input2">Last Name <span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="lastname" id="input2" placeholder="Your Last Name" type="text">
+                                </div>
+                            </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input3">Phone Number <span class="contact__form--label__star">*</span></label>
@@ -90,30 +90,33 @@ z
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input2">Name of Product <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="name of product" type="text">
+                                    <label class="contact__form--label" for="input1">Quantity<span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="qty" id="input1" placeholder="Quantity" type="number">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input4">Quantity <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="number" id="input4" placeholder="Quantity" type="number">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="contact__form--list mb-20">
-                                    <label class="contact__form--label" for="input2">Budget <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="name of product" id="input2" placeholder="Budget" type="number">
+                                    <label class="contact__form--label" for="input2">Budget<span class="contact__form--label__star">*</span></label>
+                                    <input class="contact__form--input" name="budget" id="input2" placeholder="Budget" type="number">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="contact__form--list mb-15">
                                     <label class="contact__form--label" for="input5">Write Your Message <span class="contact__form--label__star">*</span></label>
-                                    <textarea class="contact__form--textarea" name="message" id="input5" placeholder="Write Your Message"></textarea>
+                                    <textarea class="contact__form--textarea" name="msg" id="input5" placeholder="Write Your Message"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <button class="contact__form--btn primary__btn" type="submit"> <span>Submit Now</span></button>
+                        <input type="hidden" name="hiddencapcha" value="">
+                        <input type="hidden" name="ftype" value="Popup Form">
+                        <input type="hidden" name="ip2loc_ip" value="<?= $ip ?>">
+                        <input type="hidden" name="ip2loc_isp" value="">
+                        <input type="hidden" name="ip2loc_org" value="">
+                        <input type="hidden" name="ip2loc_country" value="<?= $country ?>">
+                        <input type="hidden" name="ip2loc_region" value="<?= $region ?>">
+                        <input type="hidden" name="ip2loc_city" value="<?= $city ?>">
+                        <input type="hidden" name="fullpageurl" value="<?= "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>">
+                        <button class="contact__form--btn primary__btn" name="cta" type="submit"> <span>Submit Now</span></button>
                     </form>
                 </div>
 
@@ -124,49 +127,27 @@ z
     <!-- End contact section -->
 
 
-    <!-- cta start -->
-    <section class="discount__banner--section section--padding pt-0">
+    <!-- Start shipping section -->
+    <section class="shipping__section ">
         <div class="container">
-            <div class="discount__banner--thumbnail position-relative">
-                <img class="border-radius-5 discount__banner--img__height" src="assets/img/banner/discount-banner-thumb.jpg" alt="banner-img">
-                <div class="discount__banner--content">
-                    <h2 class="discount__banner--content__title ">Is Your Industry <br> Not Listed Above?</h2>
-                    <!-- <span class="discount__banner--content__subtitle">If you do not see your industry listed, you can explore all industries here. Alternatively, connect with our helpful representatives via live chat or by completing our quote form with your specific requirements. We are committed to finding a solution that meets your industry needs.</span> -->
-                    <p>If you do not see your industry listed, you can explore all industries here. Alternatively, <br> connect with our helpful representatives via live chat or by completing</p>
-
-                    <a class="discount__banner--content__btn primary__btn" href="product.php">Buy now
-                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.8335 3.6178L8.26381 0.157332C8.21395 0.107774 8.1532 0.0681771 8.08544 0.0410843C8.01768 0.0139915 7.94441 0 7.87032 0C7.79624 0 7.72297 0.0139915 7.65521 0.0410843C7.58745 0.0681771 7.5267 0.107774 7.47684 0.157332C7.37199 0.262044 7.31393 0.39827 7.31393 0.539537C7.31393 0.680805 7.37199 0.817024 7.47684 0.921736L10.0943 3.45837H0.55625C0.405122 3.46829 0.26375 3.52959 0.160556 3.62994C0.057363 3.73029 0 3.86225 0 3.99929C0 4.13633 0.057363 4.26829 0.160556 4.36864C0.26375 4.46899 0.405122 4.53029 0.55625 4.54021H10.0927L7.47527 7.07826C7.37042 7.18298 7.31235 7.3192 7.31235 7.46047C7.31235 7.60174 7.37042 7.73796 7.47527 7.84267C7.52513 7.89223 7.58588 7.93182 7.65364 7.95892C7.7214 7.98601 7.79467 8 7.86875 8C7.94284 8 8.0161 7.98601 8.08386 7.95892C8.15162 7.93182 8.21238 7.89223 8.26223 7.84267L11.8335 4.38932C11.9406 4.28419 12 4.14649 12 4.00356C12 3.86063 11.9406 3.72293 11.8335 3.6178V3.6178Z" fill="currentColor" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta end -->
-
-
-
-  <!-- Start shipping section -->
-  <section class="shipping__section section--padding">
-        <div class="container">
-            <div class="shipping__inner mb-0 style2 d-flex">
+            <div class="shipping__inner style2 d-flex">
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                    <img src="assets/img/other/shipping2.webp" alt="icon-img">
+                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Get Instant Quote</h2>
-                   
+                        <!-- <p class="shipping__content--desc">Free shipping over $100</p> -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
-                    <img src="assets/img/other/shipping1.webp" alt="icon-img">
+                        <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
-                      
+                        <!-- <p class="shipping__content--desc">Contact us 24 hours a day</p>  -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -175,7 +156,7 @@ z
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
-            
+                        <!-- <p class="shipping__content--desc">You have 30 days to Return</p> -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -184,7 +165,7 @@ z
                     </div>
                     <div class="shipping__content">
                         <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
-                 
+                        <!-- <p class="shipping__content--desc">We ensure secure payment</p> -->
                     </div>
                 </div>
             </div>

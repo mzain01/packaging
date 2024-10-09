@@ -128,7 +128,8 @@ if (isset($_GET['id'])) {
                                 <div class="form-container product-form">
 
                                     <h3 class="mb-4">Instant Quote</h3>
-                                    <form method="post">
+                                    <form method="post" action="phpmailer\email\send.php">
+                                        <input type="hidden" name="formType" value="customProductForm">
                                         <div class="row">
                                             <div class="col-md-4 mb-3 cust-field">
                                                 <input type="text" class="form-control" name="length" placeholder="Length" required>
@@ -158,13 +159,13 @@ if (isset($_GET['id'])) {
                                             </div>
                                         </div>
                                         <div class="mb-3 ">
-                                            <input type="text" class="form-control" name="user_name" placeholder="Enter Your Name" required>
+                                            <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                                         </div>
                                         <div class="mb-3">
-                                            <input type="email" class="form-control" name="user_email" placeholder="Email Address" required>
+                                            <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                                         </div>
                                         <div class="mb-3">
-                                            <input type="tel" class="form-control" name="user_number" placeholder="Phone Number" required>
+                                            <input type="tel" class="form-control" name="number" placeholder="Phone Number" required>
                                         </div>
                                         <div class="mb-3">
                                             <input type="file" name="image" class="form-control" required>
@@ -173,9 +174,18 @@ if (isset($_GET['id'])) {
                                             <textarea class="form-control" rows="4" placeholder="Project Description" name="description" required></textarea>
                                         </div>
                                         <div class="text-center mb-3 ">
-                                            <button type="submit" name="product_form" class="btn btn-dark w-100">Submit</button>
+                                            <button type="submit" name="cta" class="btn btn-dark w-100">Submit</button>
                                         </div>
-                                      <input type="hidden" value="<?php echo $product['product_name'] ?>">
+                                        <input type="hidden" name="product_name" value="<?php echo $product['product_name'] ?>">
+                                        <input type="hidden" name="hiddencapcha" value="">
+                                        <input type="hidden" name="ftype" value="Popup Form">
+                                        <input type="hidden" name="ip2loc_ip" value="<?= $ip ?>">
+                                        <input type="hidden" name="ip2loc_isp" value="">
+                                        <input type="hidden" name="ip2loc_org" value="">
+                                        <input type="hidden" name="ip2loc_country" value="<?= $country ?>">
+                                        <input type="hidden" name="ip2loc_region" value="<?= $region ?>">
+                                        <input type="hidden" name="ip2loc_city" value="<?= $city ?>">
+                                        <input type="hidden" name="fullpageurl" value="<?= "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>">
                                     </form>
                                 </div>
 
@@ -380,26 +390,28 @@ if (isset($_GET['id'])) {
     </section>
     <!-- End product section -->
 
+
     <!-- Start shipping section -->
-    <section class="shipping__section">
+    <section class="shipping__section ">
         <div class="container">
             <div class="shipping__inner style2 d-flex">
+                <div class="shipping__items style2 d-flex align-items-center">
+                    <div class="shipping__icon">
+                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+
+                    </div>
+                    <div class="shipping__content">
+                        <h2 class="shipping__content--title h3">Get Instant Quote</h2>
+                        <!-- <p class="shipping__content--desc">Free shipping over $100</p> -->
+                    </div>
+                </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
                         <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Free Shipping</h2>
-                        <p class="shipping__content--desc">Free shipping over $100</p>
-                    </div>
-                </div>
-                <div class="shipping__items style2 d-flex align-items-center">
-                    <div class="shipping__icon">
-                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
-                    </div>
-                    <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Support 24/7</h2>
-                        <p class="shipping__content--desc">Contact us 24 hours a day</p>
+                        <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
+                        <!-- <p class="shipping__content--desc">Contact us 24 hours a day</p>  -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -407,8 +419,8 @@ if (isset($_GET['id'])) {
                         <img src="assets/img/other/shipping3.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">100% Money Back</h2>
-                        <p class="shipping__content--desc">You have 30 days to Return</p>
+                        <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
+                        <!-- <p class="shipping__content--desc">You have 30 days to Return</p> -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -416,8 +428,8 @@ if (isset($_GET['id'])) {
                         <img src="assets/img/other/shipping4.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Payment Secure</h2>
-                        <p class="shipping__content--desc">We ensure secure payment</p>
+                        <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
+                        <!-- <p class="shipping__content--desc">We ensure secure payment</p> -->
                     </div>
                 </div>
             </div>

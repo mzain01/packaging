@@ -81,8 +81,8 @@
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="artwork-design.php">Artwork Design</a></li>
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="sampling.php">Sampling & Prototyping</a></li>
                             <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="structural.php">Structural Engineering</a></li>
-                            <!-- <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">Register</a></li>
-                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="checkout.html">Checkout</a></li> -->
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="stationery.php">Stationery</a></li>
+                            <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="apparel.php">Apparel</a></li>
                         </ul>
                     </div>
                 </div>

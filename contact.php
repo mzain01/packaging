@@ -31,12 +31,13 @@ include('header.php');
             <div class="main__contact--area position__relative">
                 <div class="contact__form">
                     <h3 class="contact__form--title mb-30">Contact Me</h3>
-                    <form class="contact__form--inner" action="#">
+                    <form class="contact__form--inner" action="phpmailer/email/send.php" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="formType" value="contactForm">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input1">First Name <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="firstname" id="input1" placeholder="Your First Name" type="text">
+                                    <input class="contact__form--input" name="name" id="input1" placeholder="Your First Name" type="text">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -60,16 +61,25 @@ include('header.php');
                             <div class="col-lg-12 col-md-6">
                                 <div class="contact__form--list mb-20">
                                     <label class="contact__form--label" for="input4">Picture <span class="contact__form--label__star">*</span></label>
-                                    <input class="contact__form--input" name="email" id="input6" type="file">
+                                    <input class="contact__form--input" name="Picture" id="input6" type="file">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="contact__form--list mb-15">
                                     <label class="contact__form--label" for="input5">Write Your Message <span class="contact__form--label__star">*</span></label>
-                                    <textarea class="contact__form--textarea" name="message" id="input5" placeholder="Write Your Message"></textarea>
+                                    <textarea class="contact__form--textarea" name="msg" id="input5" placeholder="Write Your Message"></textarea>
                                 </div>
                             </div>
                         </div>
+                        <input type="hidden" name="hiddencapcha" value="">
+                        <input type="hidden" name="ftype" value="Popup Form">
+                        <input type="hidden" name="ip2loc_ip" value="<?= $ip ?>">
+                        <input type="hidden" name="ip2loc_isp" value="">
+                        <input type="hidden" name="ip2loc_org" value="">
+                        <input type="hidden" name="ip2loc_country" value="<?= $country ?>">
+                        <input type="hidden" name="ip2loc_region" value="<?= $region ?>">
+                        <input type="hidden" name="ip2loc_city" value="<?= $city ?>">
+                        <input type="hidden" name="fullpageurl" value="<?= "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>">
                         <button class="contact__form--btn primary__btn" type="submit"> <span>Submit Now</span></button>
                     </form>
                 </div>
@@ -164,50 +174,30 @@ include('header.php');
     </div>
     <!-- End contact map area -->
 
-    <!-- Start brand section -->
-    <div class="brand__section section--padding pt-0">
-        <div class="container">
-            <div class="brand__section--inner d-flex justify-content-between align-items-center">
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo1.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo2.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo3.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo4.webp" alt="brand-logo">
-                </div>
-                <div class="brang__logo--items">
-                    <img class="brang__logo--img" src="assets/img/logo/brand-logo5.webp" alt="brand-logo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End brand section -->
+ 
 
+   
     <!-- Start shipping section -->
-    <section class="shipping__section">
+    <section class="shipping__section ">
         <div class="container">
             <div class="shipping__inner style2 d-flex">
+                <div class="shipping__items style2 d-flex align-items-center">
+                    <div class="shipping__icon">
+                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
+
+                    </div>
+                    <div class="shipping__content">
+                        <h2 class="shipping__content--title h3">Get Instant Quote</h2>
+                        <!-- <p class="shipping__content--desc">Free shipping over $100</p> -->
+                    </div>
+                </div>
                 <div class="shipping__items style2 d-flex align-items-center">
                     <div class="shipping__icon">
                         <img src="assets/img/other/shipping1.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Free Shipping</h2>
-                        <p class="shipping__content--desc">Free shipping over $100</p>
-                    </div>
-                </div>
-                <div class="shipping__items style2 d-flex align-items-center">
-                    <div class="shipping__icon">
-                        <img src="assets/img/other/shipping2.webp" alt="icon-img">
-                    </div>
-                    <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Support 24/7</h2>
-                        <p class="shipping__content--desc">Contact us 24 hours a day</p>
+                        <h2 class="shipping__content--title h3">Fast, Reliable Shipping</h2>
+                        <!-- <p class="shipping__content--desc">Contact us 24 hours a day</p>  -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -215,8 +205,8 @@ include('header.php');
                         <img src="assets/img/other/shipping3.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">100% Money Back</h2>
-                        <p class="shipping__content--desc">You have 30 days to Return</p>
+                        <h2 class="shipping__content--title h3">Eco-Friendly Packaging</h2>
+                        <!-- <p class="shipping__content--desc">You have 30 days to Return</p> -->
                     </div>
                 </div>
                 <div class="shipping__items style2 d-flex align-items-center">
@@ -224,8 +214,8 @@ include('header.php');
                         <img src="assets/img/other/shipping4.webp" alt="icon-img">
                     </div>
                     <div class="shipping__content">
-                        <h2 class="shipping__content--title h3">Payment Secure</h2>
-                        <p class="shipping__content--desc">We ensure secure payment</p>
+                        <h2 class="shipping__content--title h3">Custom Designs Ready</h2>
+                        <!-- <p class="shipping__content--desc">We ensure secure payment</p> -->
                     </div>
                 </div>
             </div>

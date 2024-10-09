@@ -1,4 +1,25 @@
 <?php
+$fullpageurl = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$pageurl   = "https://$_SERVER[HTTP_HOST]";
+$category = str_replace("/", "", $_SERVER['REQUEST_URI']);
+$base_url = "<?php echo $siteurl; ?>";
+$document_root = $_SERVER['DOCUMENT_ROOT'] . "/";
+$ip = $_SERVER['REMOTE_ADDR'];
+$api_url = "https://ipinfo.io/{$ip}/json";
+$response = file_get_contents($api_url);
+if ($response !== false) {
+    $data = json_decode($response, true);
+    $country = $data['country'];
+    $region = $data['region'];
+    $city = $data['city'];
+} else {
+    echo "Unable to retrieve geolocation data.";
+}
+
+
+?>
+
+<?php
 include('adminPanel/query.php');
 ?>
 <!doctype html>
@@ -9,7 +30,7 @@ include('adminPanel/query.php');
     <title>NEED PACKAGING </title>
     <meta name="description" content="Need Packaging">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
     <!-- ======= All CSS Plugins here ======== -->
     <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
@@ -136,7 +157,7 @@ include('adminPanel/query.php');
             </div>
         </div>
 
-  
+
 
 
         <div class="main__header header__sticky">
@@ -165,7 +186,7 @@ include('adminPanel/query.php');
                                 </select> -->
                     </div>
                     <h2 class="custom-header">
-                       <p> <a href="tel:+13217858489">Contact Us Now : <span class="small"> 13217858489</span></a></p>
+                        <p> <a href="tel:+13217858489">Contact Us Now : <span class="small"> 13217858489</span></a></p>
                     </h2>
                     <div class="header__search--box">
                         <label>
@@ -360,9 +381,9 @@ include('adminPanel/query.php');
                                         </a>
                                         <ul class="category__sub--menu">
                                             <!-- <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="artwork-design.php">Artwork Design</a></li> -->
-                                            <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="structural.php">Warehouse services</a></li>
-                                            <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="structural.php"> Artwork and Design</a></li>
-                                            
+                                            <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="warehouse-services.php">Warehouse services</a></li>
+                                            <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="artwork-design.php"> Artwork and Design</a></li>
+
 
                                             <li class="categories__submenu--child__items"><a class="categories__submenu--child__items--link" href="sampling.php"> Sampling & Prototypes</a></li>
 
@@ -543,13 +564,13 @@ include('adminPanel/query.php');
                                             </svg>
                                         </a>
                                         <ul class="header__sub--menu">
-                                        <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-3.png" alt=""><a href="structural.php" class="header__sub--menu__link">Warehouse services</a></li>
+                                            <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-3.png" alt=""><a href="warehouse-services.php" class="header__sub--menu__link">Warehouse services</a></li>
 
                                             <!-- <li class="header__sub--menu__items"><a href="artwork-design.php" class="header__sub--menu__link">Artwork Design</a></li> -->
-                                           
-                                            <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-2.png" alt=""><a href="structural.php" class="header__sub--menu__link">Artwrok and Design</a></li>
+
+                                            <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon-2.png" alt=""><a href="artwork-design.php" class="header__sub--menu__link">Artwrok and Design</a></li>
                                             <li class="header__sub--menu__items d-flex"><img class="mr-5 icons" src="assets/img/icon/icon.png" alt=""><a href="sampling.php" class="header__sub--menu__link">Sampling & Prototyping</a></li>
-                                          
+
                                         </ul>
                                     </li>
 
@@ -675,10 +696,10 @@ include('adminPanel/query.php');
                             <ul class="offcanvas__sub_menu">
 
                                 <!-- <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="sampling.php">Art Work</a></li> -->
-                                <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="artwork-design.php">Warehouse Services</a></li>                              
-                                <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="structural.php">Artwork Design</a></li>
+                                <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="warehouse-services.php">Warehouse Services</a></li>
+                                <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="artwork-design.php">Artwork Design</a></li>
                                 <li class="offcanvas__sub_menu_li"><a class="offcanvas__sub_menu_item" href="sampling.php">Sampling & Prototypes</a></li>
-                              
+
 
                             </ul>
                         </li>
